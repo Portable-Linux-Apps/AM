@@ -96,10 +96,7 @@ _check_if_script_installs_a_metapackage() {
 		fi
 	done
 	metapkg_error_msg=" 💀 ERROR: \"$pure_arg\" also provides \"SCMD\", already in \$PATH"
-	if [ "$pure_arg" = node ] && command -v npm >/dev/null 2>&1; then
-		echo "$metapkg_error_msg" | tr '[:lower:]' '[:upper:]' | sed 's/SCMD/npm/g'
-		return 1
-	elif [ "$pure_arg" = platform-tools ] || [ "$pure_arg" = adb ] || [ "$pure_arg" = fastboot ]; then
+	if [ "$pure_arg" = platform-tools ] || [ "$pure_arg" = adb ] || [ "$pure_arg" = fastboot ]; then
 		if command -v adb >/dev/null 2>&1; then
 			echo "$metapkg_error_msg" | tr '[:lower:]' '[:upper:]' | sed 's/SCMD/adb/g'
 			return 1
@@ -1011,7 +1008,7 @@ case "$1" in
 
 		entries="$(echo "$@" | cut -f2- -d ' ' | tr ' ' '\n' | grep -v -- "--")"
 		FLAGS=$(echo "$@" | tr ' ' '\n' | grep -- "--" | tr '\n ' ' ')
-		METAPACKAGES="kdegames kdeutils node platform-tools"
+		METAPACKAGES="kdegames kdeutils platform-tools"
 
 		case "$1" in
 		'-ia'|'-ias'|'install-appimage')

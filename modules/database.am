@@ -51,7 +51,7 @@ _about_status() {
 		done
 	fi
 	# Determine if the referenced app is a metapackage or part of it
-	METAPACKAGES="kdegames kdeutils node platform-tools"
+	METAPACKAGES="kdegames kdeutils platform-tools"
 	for m in $METAPACKAGES; do
 		metaargpath=$(echo "$ARGPATHS" | grep "/$m$")
 		if grep -q "◆ $arg : .*\"$m\"" "$AMDATADIR/$ARCH-apps"; then
@@ -742,7 +742,7 @@ _list() {
 	fi
 	APPSNUMBER=$((ITEMSNUMBER - LIBNUMBER))
 	# Determine the number of available apps from the list
-	AVAILABLE_APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$AMDATADIR/$ARCH-apps" | grep -e "^◆.*$" -c)
+	AVAILABLE_APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"platform-tools\"" "$AMDATADIR/$ARCH-apps" | grep -e "^◆.*$" -c)
 	if ! test -f "$AMDATADIR/$ARCH-appimages"; then
 		_online_check
 		_sync_appimages_list
