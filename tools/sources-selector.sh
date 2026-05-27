@@ -7,7 +7,7 @@
 rm -Rf ../SOURCES/*
 
 DIRS=$(find ../programs -type d | grep "/" | sed 's:.*/::' | grep -v "programs$")
-metapackages="kdegames kdeutils node platform-tools"
+metapackages="kdegames kdeutils platform-tools"
 for arch in $DIRS; do
 	SOURCES_DIR="../SOURCES/$arch"
 	for a in ../programs/"$arch"/*; do

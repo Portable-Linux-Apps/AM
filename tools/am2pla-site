@@ -21,8 +21,8 @@ fi
 
 # GET THE EXACT NUMBER OF AVAILABLE APPS
 ARGS=$(sort -u ./args)
-APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
-ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
+APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
+ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
 CATEGORIES="am-utils android audio \
 	comic command-line communication \
 	disk \
@@ -50,7 +50,7 @@ function _update_json() {
 	echo "[" > apps.json
 	for arg in $ARGS; do
 		case "$arg" in
-			kdegames|kdeutils|node|platform-tools) continue;;
+			kdegames|kdeutils|platform-tools) continue;;
 		esac
 		description=$(grep "◆ $arg :" "$arch"-apps | sed 's/"/\\"/g; s/^.*: //')
 		printf "  {\n    \"packageName\": \"%b\",\n    \"description\": \"%b..\",\n    \"icon\": \"https://portable-linux-apps.github.io/icons/%b.png\"\n  },\n" "$arg" "$description" "$arg" >> apps.json
@@ -693,8 +693,8 @@ for category in $CATEGORIES; do
 	fi
 	echo -e "$(sort -u ./"$arch-$category" | awk -v FS="(◆ | : )" '{print $2}')" > args
 	ARGS=$(sort -u ./args)
-	APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
-	ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
+	APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
+	ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
 	_category_list_header
 	_category_list_body
 	_footer_categories >> "$category".md
