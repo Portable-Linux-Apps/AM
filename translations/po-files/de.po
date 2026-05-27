@@ -192,12 +192,12 @@ msgstr ""
 "Meldung zu ignorieren und die Dateien manuell zu installieren "
 "(Standardeinstellung)."
 
-#: APP-MANAGER:617 modules/install.am:119 modules/install.am:136
-#: modules/install.am:659 modules/install.am:1247
+#: APP-MANAGER:617 modules/install.am:116 modules/install.am:133
+#: modules/install.am:656 modules/install.am:1244
 msgid " Do you wish to continue? (N/y): "
 msgstr " Möchten Sie fortfahren? (N/y): "
 
-#: APP-MANAGER:622 modules/install.am:311 modules/install.am:323
+#: APP-MANAGER:622 modules/install.am:308 modules/install.am:320
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
 msgstr " - %b, heruntergeladen von https://github.com/ivan-hc/am-utils\\n"
 
@@ -267,7 +267,7 @@ msgstr ""
 "versuchen Sie es erneut!"
 
 #: APP-MANAGER:780 modules/database.am:839 modules/database.am:924
-#: modules/install.am:970 modules/install.am:995 modules/management.am:572
+#: modules/install.am:967 modules/install.am:992 modules/management.am:572
 #: modules/template.am:395
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 [ARGUMENT]"
@@ -1650,7 +1650,7 @@ msgstr ""
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME ist Teil von \\\"$LASTDIR\\\" und bereits installiert"
 
-#: modules/install.am:117
+#: modules/install.am:114
 msgid ""
 " ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
 "\\033[0m\\n"
@@ -1658,7 +1658,7 @@ msgstr ""
 " ${RED}WARNUNG: \\\"$arg\\\" hat keinen transparenten Build-Prozess! "
 "\\033[0m\\n"
 
-#: modules/install.am:118
+#: modules/install.am:115
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
@@ -1666,77 +1666,77 @@ msgstr ""
 "\\n Wir können nicht sicher sein, was sich in der Anwendung befindet.\\n Wir "
 "empfehlen dringend, diese Anwendung zu sandboxen\\n\\n"
 
-#: modules/install.am:121 modules/install.am:138 modules/install.am:661
+#: modules/install.am:118 modules/install.am:135 modules/install.am:658
 msgid "\\n INSTALLATION ABORTED! \\n"
 msgstr "\\n INSTALLATION ABGEBROCHEN! \\n"
 
-#: modules/install.am:129
+#: modules/install.am:126
 msgid " ◆ $APPNAME: starting installation script"
 msgstr " ◆ $APPNAME: Installationsskript wird gestartet"
 
-#: modules/install.am:132
+#: modules/install.am:129
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
 msgstr "\\n Dieses Skript erstellt ein AppImage on-the-fly. Bitte warten...\\n"
 
-#: modules/install.am:134
+#: modules/install.am:131
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
 msgstr " 💀 FEHLER: \\\"$arg\\\" existiert bereits in /usr/local/lib"
 
-#: modules/install.am:135
+#: modules/install.am:132
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
 msgstr ""
 "\\n ⚠️ Dieses Skript installiert eine Systembibliothek in /usr/local/lib\\n\\n"
 
-#: modules/install.am:230 modules/install.am:233 modules/install.am:251
-#: modules/install.am:254
+#: modules/install.am:227 modules/install.am:230 modules/install.am:248
+#: modules/install.am:251
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
 msgstr " 💀 FEHLER WÄHREND DER INSTALLATION, $APPNAME ENTFERNT!"
 
-#: modules/install.am:240 modules/install.am:1098
+#: modules/install.am:237 modules/install.am:1095
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
 msgstr "\\n                  %bENDE ALLER INSTALLATIONSPROZESSE\\n\\033[0m"
 
-#: modules/install.am:267
+#: modules/install.am:264
 msgid " INSTALLATION ABORTED!"
 msgstr " INSTALLATION ABGEBROCHEN!"
 
-#: modules/install.am:485
+#: modules/install.am:482
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
 msgstr ""
 " Mehrere Varianten erkannt. Wählen Sie eine aus oder drücken Sie ZERO zum "
 "Abbrechen:\\n\\n"
 
-#: modules/install.am:491
+#: modules/install.am:488
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
 msgstr ""
 "%bBitte wählen Sie ein anderes Element oder drücken Sie \\\"ZERO\\\".\\n\\n"
 
-#: modules/install.am:496
+#: modules/install.am:493
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
 msgstr "\\n Ungültige Auswahl. INSTALLATION ABGEBROCHEN! \\n"
 
-#: modules/install.am:542
+#: modules/install.am:539
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
 msgstr " 💀 FEHLER, \\\"$arg\\\" existiert NICHT in Drittanbieter-Datenbanken"
 
-#: modules/install.am:543
+#: modules/install.am:540
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
 msgstr "\\n Versuchen Sie es erneut, aber OHNE den Drittanbieter-Schalter\\n"
 
-#: modules/install.am:551 modules/install.am:1058
+#: modules/install.am:548 modules/install.am:1055
 msgid " Install \\\"$DID_YOU_MEAN\\\" with --$DID_YOU_MEAN_FLAG flag? (Y/n) "
 msgstr ""
 " \\\"$DID_YOU_MEAN\\\" mit dem Flag --$DID_YOU_MEAN_FLAG installieren? (Y/n) "
 
-#: modules/install.am:553 modules/install.am:1060
+#: modules/install.am:550 modules/install.am:1057
 msgid " Install \\\"$DID_YOU_MEAN\\\" instead? (Y/n) "
 msgstr " Stattdessen \\\"$DID_YOU_MEAN\\\" installieren? (Y/n) "
 
-#: modules/install.am:578 modules/install.am:1038
+#: modules/install.am:575 modules/install.am:1035
 msgid " ◆ \\\"$pure_arg\\\" is already installed!"
 msgstr " ◆ \\\"$pure_arg\\\" ist bereits installiert!"
 
-#: modules/install.am:647
+#: modules/install.am:644
 msgid ""
 "\\n \\\"%b%b\\033[0m\\\" is not in the main database, but found in --"
 "%b%b\\033[0m.\\n"
@@ -1744,172 +1744,172 @@ msgstr ""
 "\\n \\\"%b%b\\033[0m\\\" ist nicht in der Hauptdatenbank, aber in --"
 "%b%b\\033[0m gefunden.\\n"
 
-#: modules/install.am:649
+#: modules/install.am:646
 msgid "\\n Did you mean \\\"%b%b\\033[0m\\\"?\\n"
 msgstr "\\n Meinten Sie \\\"%b%b\\033[0m\\\"?\\n"
 
-#: modules/install.am:658 modules/install.am:710 modules/management.am:128
+#: modules/install.am:655 modules/install.am:707 modules/management.am:128
 #: modules/management.am:414 modules/management.am:481
 msgid " ✖ ERROR: \\\"%b\\\" is NOT an AppImage\\n"
 msgstr " ✖ FEHLER: \\\"%b\\\" ist KEIN AppImage\\n"
 
-#: modules/install.am:701
+#: modules/install.am:698
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
 msgstr "%b\\n \\\"%b\\\" ist bereits sandboxed!\\n%b\\n"
 
-#: modules/install.am:705 modules/management.am:126
+#: modules/install.am:702 modules/management.am:126
 msgid " ✖ ERROR: \\\"%b\\\" is not installed\\n"
 msgstr " ✖ FEHLER: \\\"%b\\\" ist nicht installiert\\n"
 
-#: modules/install.am:718
+#: modules/install.am:715
 msgid " Error: You can't sandbox $1"
 msgstr " Fehler: $1 kann nicht gesandboxed werden"
 
-#: modules/install.am:721
+#: modules/install.am:718
 msgid " ERROR: You need aisap or sas for this script to work"
 msgstr " FEHLER: Für dieses Skript wird aisap oder sas benötigt"
 
-#: modules/install.am:722
+#: modules/install.am:719
 msgid " NOTE: Only sas can sandbox DWARFS AppImages"
 msgstr " HINWEIS: Nur sas kann DWARFS-AppImages in eine Sandbox verschieben"
 
-#: modules/install.am:723
+#: modules/install.am:720
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
 msgstr " ◆ MÖCHTEN SIE SAS INSTALLIEREN? Installationsgröße <5 MiB? (Y/n) "
 
-#: modules/install.am:725
+#: modules/install.am:722
 msgid " OPERATION ABORTED!"
 msgstr " VORGANG ABGEBROCHEN!"
 
-#: modules/install.am:728
+#: modules/install.am:725
 msgid " ◆ DO YOU WISH TO INSTALL SAS LOCALLY? (Y/n) "
 msgstr " ◆ MÖCHTEN SIE SAS LOKAL INSTALLIEREN? (Y/n) "
 
-#: modules/install.am:737
+#: modules/install.am:734
 msgid " sas installed successfully!"
 msgstr " sas erfolgreich installiert!"
 
-#: modules/install.am:743
+#: modules/install.am:740
 msgid "Making aisap sandbox script for \\\"%b\\\"...\\n"
 msgstr "Erstelle AISAP-Sandbox-Skript für \\\"%b\\\"...\\n"
 
-#: modules/install.am:860
+#: modules/install.am:857
 msgid " Do you want configure access to directories? (Y/n): "
 msgstr " Möchten Sie den Zugriff auf Verzeichnisse konfigurieren? (Y/n): "
 
-#: modules/install.am:867
+#: modules/install.am:864
 msgid " Allow $1 access to \\\"$XDG_DIR\\\"? (y/N) "
 msgstr " $1 Zugriff auf \\\"$XDG_DIR\\\" erlauben? (y/N) "
 
-#: modules/install.am:874
+#: modules/install.am:871
 msgid " Allow $1 access to a specific directory? (y/N) "
 msgstr " $1 Zugriff auf ein bestimmtes Verzeichnis erlauben? (y/N) "
 
-#: modules/install.am:876
+#: modules/install.am:873
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
 msgstr ""
 "  WARNUNG: Zugriff auf ganz $HOME oder / u. Ä. zu gewähren ist nicht sicher"
 
-#: modules/install.am:877
+#: modules/install.am:874
 msgid "  Also aisap might not let $1 start when such paths are given"
 msgstr ""
 "  Außerdem lässt aisap $1 möglicherweise nicht starten, wenn solche Pfade "
 "angegeben sind"
 
-#: modules/install.am:878
+#: modules/install.am:875
 msgid "  Type the path to the directory"
 msgstr "  Pfad zum Verzeichnis eingeben"
 
-#: modules/install.am:879
+#: modules/install.am:876
 msgid "  Example: /media/external-drive or ~/Backups: "
 msgstr "  Beispiel: /media/external-drive oder ~/Backups: "
 
-#: modules/install.am:885
+#: modules/install.am:882
 msgid "  SPOOKY LOCATION! ARE YOU SURE? IF SO TYPE \\\"YES\\\": "
 msgstr "  HEIKLER ORT! SIND SIE SICHER? WENN JA, GEBEN SIE \\\"YES\\\" EIN: "
 
-#: modules/install.am:886
+#: modules/install.am:883
 msgid " That's not \\\"YES\\\", aborting"
 msgstr " Das ist nicht \\\"YES\\\". Breche ab"
 
-#: modules/install.am:889
+#: modules/install.am:886
 msgid " No path given, aborting"
 msgstr " Kein Pfad angegeben, Abbruch"
 
-#: modules/install.am:893
+#: modules/install.am:890
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
 msgstr "  Gewähre Zugriff auf \\\"$NEWDIR\\\"..."
 
-#: modules/install.am:896
+#: modules/install.am:893
 msgid " User directories access configured successfully!"
 msgstr " Zugriff auf Benutzerverzeichnisse erfolgreich konfiguriert!"
 
-#: modules/install.am:927
+#: modules/install.am:924
 msgid "%b sandbox enabled!"
 msgstr "%b-Sandbox aktiviert!"
 
-#: modules/install.am:929
+#: modules/install.am:926
 msgid "Sandbox location: "
 msgstr "Sandbox-Speicherort: "
 
-#: modules/install.am:931
+#: modules/install.am:928
 msgid ""
 "To change the location, set the \\$SANDBOXDIR variable before launching."
 msgstr ""
 "Um den Speicherort zu ändern, setzen Sie die Variable \\$SANDBOXDIR vor dem "
 "Start."
 
-#: modules/install.am:933
+#: modules/install.am:930
 msgid "To disable the sandbox, run one of the following commands:"
 msgstr ""
 "Um die Sandbox zu deaktivieren, führen Sie einen der folgenden Befehle aus:"
 
-#: modules/install.am:952
+#: modules/install.am:949
 msgid " ERROR: Not a sandboxed AppImage, aborting"
 msgstr " FEHLER: Kein sandboxed AppImage, breche ab"
 
-#: modules/install.am:967
+#: modules/install.am:964
 msgid " USAGE: $AMCLI $1 $2 [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 $2 [ARGUMENT]"
 
-#: modules/install.am:971
+#: modules/install.am:968
 msgid " USAGE: $AMCLI $1 --convert [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --convert [ARGUMENT]"
 
-#: modules/install.am:996
+#: modules/install.am:993
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --debug [ARGUMENT]"
 
-#: modules/install.am:997
+#: modules/install.am:994
 msgid " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --force-latest [ARGUMENT]"
 
-#: modules/install.am:998
+#: modules/install.am:995
 msgid " USAGE: $AMCLI $1 --icons [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --icons [ARGUMENT]"
 
-#: modules/install.am:999
+#: modules/install.am:996
 msgid " USAGE: $AMCLI $1 --sandbox [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --sandbox [ARGUMENT]"
 
-#: modules/install.am:1000
+#: modules/install.am:997
 msgid " USAGE: $AMCLI $1 --user [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --user [ARGUMENT]"
 
-#: modules/install.am:1008
+#: modules/install.am:1005
 msgid ""
 "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
 msgstr "\\n                  %bSTART ALLER INSTALLATIONSPROZESSE\\033[0m\\n\\n"
 
-#: modules/install.am:1040
+#: modules/install.am:1037
 msgid " 💀 ERROR: \\\"$pure_arg\\\" command already exists!"
 msgstr " 💀 FEHLER: Der Befehl \\\"$pure_arg\\\" existiert bereits!"
 
-#: modules/install.am:1046
+#: modules/install.am:1043
 msgid " 💀 ERROR: the file \\\"$arg\\\" does NOT exist"
 msgstr " 💀 FEHLER: Die Datei \\\"$arg\\\" existiert NICHT"
 
-#: modules/install.am:1054
+#: modules/install.am:1051
 msgid ""
 "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
@@ -1919,46 +1919,46 @@ msgstr ""
 "$(printf \"bitte prüfen Sie die Liste, führen Sie den Befehl \\"
 "\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" aus.\\n\\n\" \"${Gold}\")"
 
-#: modules/install.am:1099
+#: modules/install.am:1096
 msgid "\\n             The following new programs have been installed:\\n\\n"
 msgstr ""
 "\\n             Die folgenden neuen Programme wurden installiert:\\n\\n"
 
-#: modules/install.am:1108
+#: modules/install.am:1105
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 user/project [ARGUMENT]"
 
-#: modules/install.am:1109
+#: modules/install.am:1106
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
 msgstr " NUTZUNG: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
 
-#: modules/install.am:1110
+#: modules/install.am:1107
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT]"
 msgstr " NUTZUNG: $AMCLI $1 --user user/project [ARGUMENT]"
 
-#: modules/install.am:1111
+#: modules/install.am:1108
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
 msgstr " NUTZUNG: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
 
-#: modules/install.am:1161
+#: modules/install.am:1158
 msgid " Do you wish reinstall everything? (N/y): "
 msgstr " Möchten Sie alles neu installieren? (N/y): "
 
-#: modules/install.am:1163
+#: modules/install.am:1160
 msgid "%b\\n ABORTED! \\n%b\\n"
 msgstr "%b\\n ABGEBROCHEN! \\n%b\\n"
 
-#: modules/install.am:1165
+#: modules/install.am:1162
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
 msgstr "%b\\n Installiere alles neu...\\n%b\\n"
 
-#: modules/install.am:1246
+#: modules/install.am:1243
 msgid "- Found differences in %b, it probably needs to be updated.\\n"
 msgstr ""
 "– Unterschiede in %b gefunden; diese Datei muss wahrscheinlich aktualisiert "
 "werden.\\n"
 
-#: modules/install.am:1266
+#: modules/install.am:1263
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
@@ -1966,11 +1966,11 @@ msgstr ""
 "%b\\n Prüfe auf Änderungen der Installationsskripte in der Online-"
 "Datenbank...\\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " App removal and reinstallation complete! \\n%b\\n"
 msgstr " Entfernen und Neuinstallation der Apps abgeschlossen! \\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " Nothing to do here! \\n%b\\n"
 msgstr " Nichts zu tun! \\n%b\\n"
 

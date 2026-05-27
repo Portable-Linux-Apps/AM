@@ -174,12 +174,12 @@ msgstr ""
 "按 \\\"Y\\\" 将它们存储在缓存中，直到您清除它（使用 \\\"-c\\\" 选项），或按 "
 "\\\"N\\\" 忽略此消息并手动安装它们（默认）。"
 
-#: APP-MANAGER:617 modules/install.am:119 modules/install.am:136
-#: modules/install.am:659 modules/install.am:1247
+#: APP-MANAGER:617 modules/install.am:116 modules/install.am:133
+#: modules/install.am:656 modules/install.am:1244
 msgid " Do you wish to continue? (N/y): "
 msgstr " 您希望继续吗？ (N/y)： "
 
-#: APP-MANAGER:622 modules/install.am:311 modules/install.am:323
+#: APP-MANAGER:622 modules/install.am:308 modules/install.am:320
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
 msgstr " - %b，从 https://github.com/ivan-hc/am-utils 下载\\n"
 
@@ -241,7 +241,7 @@ msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
 msgstr " 请删除 \\\"$blacklisted_file\\\"，重新启动并重试！"
 
 #: APP-MANAGER:780 modules/database.am:839 modules/database.am:924
-#: modules/install.am:970 modules/install.am:995 modules/management.am:572
+#: modules/install.am:967 modules/install.am:992 modules/management.am:572
 #: modules/template.am:395
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 [参数]"
@@ -1479,13 +1479,13 @@ msgstr "此选项仅用于处理安装脚本！ \\n\\n"
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME 是 \\\"$LASTDIR\\\" 的一部分，已安装"
 
-#: modules/install.am:117
+#: modules/install.am:114
 msgid ""
 " ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
 "\\033[0m\\n"
 msgstr " ${RED}警告：\\\"$arg\\\" 没有透明的构建过程！ \\033[0m\\n"
 
-#: modules/install.am:118
+#: modules/install.am:115
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
@@ -1493,238 +1493,238 @@ msgstr ""
 "\\n 我们无法确定应用程序内部有什么\\n 我们强烈建议您对此应用程序进行沙盒化"
 "\\n\\n"
 
-#: modules/install.am:121 modules/install.am:138 modules/install.am:661
+#: modules/install.am:118 modules/install.am:135 modules/install.am:658
 msgid "\\n INSTALLATION ABORTED! \\n"
 msgstr "\\n 安装已中止！ \\n"
 
-#: modules/install.am:129
+#: modules/install.am:126
 msgid " ◆ $APPNAME: starting installation script"
 msgstr " ◆ $APPNAME：正在启动安装脚本"
 
-#: modules/install.am:132
+#: modules/install.am:129
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
 msgstr "\\n 此脚本将即时创建 AppImage，请稍候...\\n"
 
-#: modules/install.am:134
+#: modules/install.am:131
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
 msgstr " 💀 错误：\\\"$arg\\\" 已存在于 /usr/local/lib 中"
 
-#: modules/install.am:135
+#: modules/install.am:132
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
 msgstr "\\n ⚠️ 此脚本将在 /usr/local/lib 中安装系统库\\n\\n"
 
-#: modules/install.am:230 modules/install.am:233 modules/install.am:251
-#: modules/install.am:254
+#: modules/install.am:227 modules/install.am:230 modules/install.am:248
+#: modules/install.am:251
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
 msgstr " 💀 安装期间出错，已删除 $APPNAME！"
 
-#: modules/install.am:240 modules/install.am:1098
+#: modules/install.am:237 modules/install.am:1095
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
 msgstr "\\n                  %b所有安装过程结束\\n\\033[0m"
 
-#: modules/install.am:267
+#: modules/install.am:264
 msgid " INSTALLATION ABORTED!"
 msgstr " 安装已中止！"
 
-#: modules/install.am:485
+#: modules/install.am:482
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
 msgstr " 检测到多个变体，请选择一个或按 0 中止：\\n\\n"
 
-#: modules/install.am:491
+#: modules/install.am:488
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
 msgstr "%b请选择另一个项目或按 \\\"ZERO\\\"。\\n\\n"
 
-#: modules/install.am:496
+#: modules/install.am:493
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
 msgstr "\\n 无效选择。安装已中止！ \\n"
 
-#: modules/install.am:542
+#: modules/install.am:539
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
 msgstr " 💀 错误，\\\"$arg\\\" 不存在于第三方数据库中"
 
-#: modules/install.am:543
+#: modules/install.am:540
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
 msgstr "\\n 请重试，但不要使用第三方标志\\n"
 
-#: modules/install.am:551 modules/install.am:1058
+#: modules/install.am:548 modules/install.am:1055
 msgid " Install \\\"$DID_YOU_MEAN\\\" with --$DID_YOU_MEAN_FLAG flag? (Y/n) "
 msgstr " 使用 --$DID_YOU_MEAN_FLAG 标志安装 \\\"$DID_YOU_MEAN\\\" 吗？ (Y/n) "
 
-#: modules/install.am:553 modules/install.am:1060
+#: modules/install.am:550 modules/install.am:1057
 msgid " Install \\\"$DID_YOU_MEAN\\\" instead? (Y/n) "
 msgstr " 改为安装 \\\"$DID_YOU_MEAN\\\" 吗？ (Y/n) "
 
-#: modules/install.am:578 modules/install.am:1038
+#: modules/install.am:575 modules/install.am:1035
 msgid " ◆ \\\"$pure_arg\\\" is already installed!"
 msgstr " ◆ \\\"$pure_arg\\\" 已安装！"
 
-#: modules/install.am:647
+#: modules/install.am:644
 msgid ""
 "\\n \\\"%b%b\\033[0m\\\" is not in the main database, but found in --"
 "%b%b\\033[0m.\\n"
 msgstr ""
 "\\n \\\"%b%b\\033[0m\\\" 不在主数据库中，但在 --%b%b\\033[0m 中找到。\\n"
 
-#: modules/install.am:649
+#: modules/install.am:646
 msgid "\\n Did you mean \\\"%b%b\\033[0m\\\"?\\n"
 msgstr "\\n 您是指 \\\"%b%b\\033[0m\\\" 吗？\\n"
 
-#: modules/install.am:658 modules/install.am:710 modules/management.am:128
+#: modules/install.am:655 modules/install.am:707 modules/management.am:128
 #: modules/management.am:414 modules/management.am:481
 msgid " ✖ ERROR: \\\"%b\\\" is NOT an AppImage\\n"
 msgstr " ✖ 错误：\\\"%b\\\" 不是 AppImage\\n"
 
-#: modules/install.am:701
+#: modules/install.am:698
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
 msgstr "%b\\n \\\"%b\\\" 已经处于沙盒中！\\n%b\\n"
 
-#: modules/install.am:705 modules/management.am:126
+#: modules/install.am:702 modules/management.am:126
 msgid " ✖ ERROR: \\\"%b\\\" is not installed\\n"
 msgstr " ✖ 错误：\\\"%b\\\" 未安装\\n"
 
-#: modules/install.am:718
+#: modules/install.am:715
 msgid " Error: You can't sandbox $1"
 msgstr " 错误：您无法对 $1 进行沙盒化"
 
-#: modules/install.am:721
+#: modules/install.am:718
 msgid " ERROR: You need aisap or sas for this script to work"
 msgstr " 错误：此脚本需要 aisap 或 sas 才能工作"
 
-#: modules/install.am:722
+#: modules/install.am:719
 msgid " NOTE: Only sas can sandbox DWARFS AppImages"
 msgstr " 注意：只有 sas 可以对 DWARFS AppImage 进行沙盒化"
 
-#: modules/install.am:723
+#: modules/install.am:720
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
 msgstr " ◆ 您希望安装 SAS 吗？安装大小 <5 MiB？ (Y,n) "
 
-#: modules/install.am:725
+#: modules/install.am:722
 msgid " OPERATION ABORTED!"
 msgstr " 操作已中止！"
 
-#: modules/install.am:728
+#: modules/install.am:725
 msgid " ◆ DO YOU WISH TO INSTALL SAS LOCALLY? (Y/n) "
 msgstr " ◆ 您希望在本地安装 SAS 吗？ (Y,n) "
 
-#: modules/install.am:737
+#: modules/install.am:734
 msgid " sas installed successfully!"
 msgstr " sas 安装成功！"
 
-#: modules/install.am:743
+#: modules/install.am:740
 msgid "Making aisap sandbox script for \\\"%b\\\"...\\n"
 msgstr "正在為 %b 構建 aisap 沙箱腳本...\\n"
 
-#: modules/install.am:860
+#: modules/install.am:857
 msgid " Do you want configure access to directories? (Y/n): "
 msgstr " 您想配置目录访问权限吗？ (Y/n)： "
 
-#: modules/install.am:867
+#: modules/install.am:864
 msgid " Allow $1 access to \\\"$XDG_DIR\\\"? (y/N) "
 msgstr " 允许 $1 访问 \\\"$XDG_DIR\\\" 吗？ (y/N) "
 
-#: modules/install.am:874
+#: modules/install.am:871
 msgid " Allow $1 access to a specific directory? (y/N) "
 msgstr " 允许 $1 访问特定目录吗？ (y/N) "
 
-#: modules/install.am:876
+#: modules/install.am:873
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
 msgstr "  警告：授予对整个 $HOME 或 / 及类似目录的访问权限是不安全的"
 
-#: modules/install.am:877
+#: modules/install.am:874
 msgid "  Also aisap might not let $1 start when such paths are given"
 msgstr "  此外，当给出此类路径时，aisap 可能不允许 $1 启动"
 
-#: modules/install.am:878
+#: modules/install.am:875
 msgid "  Type the path to the directory"
 msgstr "  输入目录的路径"
 
-#: modules/install.am:879
+#: modules/install.am:876
 msgid "  Example: /media/external-drive or ~/Backups: "
 msgstr "  示例：/media/external-drive 或 ~/Backups： "
 
-#: modules/install.am:885
+#: modules/install.am:882
 msgid "  SPOOKY LOCATION! ARE YOU SURE? IF SO TYPE \\\"YES\\\": "
 msgstr "  危险位置！您确定吗？如果确定请输入 \\\"YES\\\"： "
 
-#: modules/install.am:886
+#: modules/install.am:883
 msgid " That's not \\\"YES\\\", aborting"
 msgstr " 那不是 \\\"YES\\\"，正在中止"
 
-#: modules/install.am:889
+#: modules/install.am:886
 msgid " No path given, aborting"
 msgstr " 未给出路径，正在中止"
 
-#: modules/install.am:893
+#: modules/install.am:890
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
 msgstr "  正在授予对 \\\"$NEWDIR\\\" 的访问权限..."
 
-#: modules/install.am:896
+#: modules/install.am:893
 msgid " User directories access configured successfully!"
 msgstr " 用户目录访问配置成功！"
 
-#: modules/install.am:927
+#: modules/install.am:924
 msgid "%b sandbox enabled!"
 msgstr "%b 沙箱已啟用！"
 
-#: modules/install.am:929
+#: modules/install.am:926
 msgid "Sandbox location: "
 msgstr "沙箱位置： "
 
-#: modules/install.am:931
+#: modules/install.am:928
 msgid ""
 "To change the location, set the \\$SANDBOXDIR variable before launching."
 msgstr "若要變更位置，請在啟動前設定 \\$SANDBOXDIR 變數。"
 
-#: modules/install.am:933
+#: modules/install.am:930
 msgid "To disable the sandbox, run one of the following commands:"
 msgstr "若要停用沙箱，請執行下列命令之一："
 
-#: modules/install.am:952
+#: modules/install.am:949
 msgid " ERROR: Not a sandboxed AppImage, aborting"
 msgstr " 错误：不是沙盒化的 AppImage，正在中止"
 
-#: modules/install.am:967
+#: modules/install.am:964
 msgid " USAGE: $AMCLI $1 $2 [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 $2 [参数]"
 
-#: modules/install.am:971
+#: modules/install.am:968
 msgid " USAGE: $AMCLI $1 --convert [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --convert [参数]"
 
-#: modules/install.am:996
+#: modules/install.am:993
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --debug [参数]"
 
-#: modules/install.am:997
+#: modules/install.am:994
 msgid " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --force-latest [参数]"
 
-#: modules/install.am:998
+#: modules/install.am:995
 msgid " USAGE: $AMCLI $1 --icons [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --icons [参数]"
 
-#: modules/install.am:999
+#: modules/install.am:996
 msgid " USAGE: $AMCLI $1 --sandbox [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --sandbox [参数]"
 
-#: modules/install.am:1000
+#: modules/install.am:997
 msgid " USAGE: $AMCLI $1 --user [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --user [参数]"
 
-#: modules/install.am:1008
+#: modules/install.am:1005
 msgid ""
 "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
 msgstr "\\n                  %b所有安装过程开始\\033[0m\\n\\n"
 
-#: modules/install.am:1040
+#: modules/install.am:1037
 msgid " 💀 ERROR: \\\"$pure_arg\\\" command already exists!"
 msgstr " 💀 错误：\\\"$pure_arg\\\" 命令已存在！"
 
-#: modules/install.am:1046
+#: modules/install.am:1043
 msgid " 💀 ERROR: the file \\\"$arg\\\" does NOT exist"
 msgstr " 💀 错误：文件 \\\"$arg\\\" 不存在"
 
-#: modules/install.am:1054
+#: modules/install.am:1051
 msgid ""
 "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
@@ -1733,53 +1733,53 @@ msgstr ""
 "💀 错误：\\\"$arg\\\" 不存在于 \\\"AM\\\" 数据库中，$(printf \"请检查列表，运"
 "行 \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" 命令。\\n\\n\" \"${Gold}\")"
 
-#: modules/install.am:1099
+#: modules/install.am:1096
 msgid "\\n             The following new programs have been installed:\\n\\n"
 msgstr "\\n             以下新程序已安装：\\n\\n"
 
-#: modules/install.am:1108
+#: modules/install.am:1105
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 user/project [参数]"
 
-#: modules/install.am:1109
+#: modules/install.am:1106
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
 msgstr " 用法：$AMCLI $1 user/project [参数] [关键字]"
 
-#: modules/install.am:1110
+#: modules/install.am:1107
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT]"
 msgstr " 用法：$AMCLI $1 --user user/project [参数]"
 
-#: modules/install.am:1111
+#: modules/install.am:1108
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
 msgstr " 用法：$AMCLI $1 --user user/project [参数] [关键字]"
 
-#: modules/install.am:1161
+#: modules/install.am:1158
 msgid " Do you wish reinstall everything? (N/y): "
 msgstr " 您希望重新安装所有内容吗？ (N/y)： "
 
-#: modules/install.am:1163
+#: modules/install.am:1160
 msgid "%b\\n ABORTED! \\n%b\\n"
 msgstr "%b\\n 已中止！ \\n%b\\n"
 
-#: modules/install.am:1165
+#: modules/install.am:1162
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
 msgstr "%b\\n 正在重新安装所有内容...\\n%b\\n"
 
-#: modules/install.am:1246
+#: modules/install.am:1243
 msgid "- Found differences in %b, it probably needs to be updated.\\n"
 msgstr "- 发现 %b 值存在差异，可能需要更新。\\n"
 
-#: modules/install.am:1266
+#: modules/install.am:1263
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
 msgstr "%b\\n 正在检查在线数据库中安装脚本的更改...\\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " App removal and reinstallation complete! \\n%b\\n"
 msgstr " 应用程序删除和重新安装完成！ \\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " Nothing to do here! \\n%b\\n"
 msgstr " 此处无事可做！ \\n%b\\n"
 

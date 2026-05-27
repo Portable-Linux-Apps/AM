@@ -186,12 +186,12 @@ msgstr ""
 "\" ஐ அழுத்தவும், அல்லது இந்த செய்தியை புறக்கணித்து அவற்றை கைமுறையாக நிறுவ "
 "(இயல்புநிலை) \\\"N\\\" ஐ அழுத்தவும்."
 
-#: APP-MANAGER:617 modules/install.am:119 modules/install.am:136
-#: modules/install.am:659 modules/install.am:1247
+#: APP-MANAGER:617 modules/install.am:116 modules/install.am:133
+#: modules/install.am:656 modules/install.am:1244
 msgid " Do you wish to continue? (N/y): "
 msgstr " நீங்கள் தொடர விரும்புகிறீர்களா? (N/y): "
 
-#: APP-MANAGER:622 modules/install.am:311 modules/install.am:323
+#: APP-MANAGER:622 modules/install.am:308 modules/install.am:320
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
 msgstr ""
 " - %b, https://github.com/ivan-hc/am-utils இலிருந்து பதிவிறக்கம் செய்யப்பட்டது\\n"
@@ -263,7 +263,7 @@ msgstr ""
 "முயற்சிக்கவும்!"
 
 #: APP-MANAGER:780 modules/database.am:839 modules/database.am:924
-#: modules/install.am:970 modules/install.am:995 modules/management.am:572
+#: modules/install.am:967 modules/install.am:992 modules/management.am:572
 #: modules/template.am:395
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 [வாதம்]"
@@ -1614,7 +1614,7 @@ msgstr "இந்த விருப்பம் நிறுவல் ஸ்க
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME \\\"$LASTDIR\\\" இன் ஒரு பகுதியாகும், ஏற்கனவே நிறுவப்பட்டுள்ளது"
 
-#: modules/install.am:117
+#: modules/install.am:114
 msgid ""
 " ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
 "\\033[0m\\n"
@@ -1622,7 +1622,7 @@ msgstr ""
 " ${RED}எச்சரிக்கை: \\\"$arg\\\" ஒரு வெளிப்படையான உருவாக்க (build) செயல்முறையைக் "
 "கொண்டிருக்கவில்லை! \\033[0m\\n"
 
-#: modules/install.am:118
+#: modules/install.am:115
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
@@ -1630,79 +1630,79 @@ msgstr ""
 "\\n பயன்பாட்டிற்குள் என்ன உள்ளது என்பதில் நாங்கள் உறுதியாக சொல்ல முடியவில்லை\\n இந்த "
 "பயன்பாட்டை நாங்கள் சாண்ட்பாக்ஸ் செய்ய அதிக பரிந்துரைக்கிறோம்\\n\\n"
 
-#: modules/install.am:121 modules/install.am:138 modules/install.am:661
+#: modules/install.am:118 modules/install.am:135 modules/install.am:658
 msgid "\\n INSTALLATION ABORTED! \\n"
 msgstr "\\n நிறுவல் ரத்து செய்யப்பட்டது! \\n"
 
-#: modules/install.am:129
+#: modules/install.am:126
 msgid " ◆ $APPNAME: starting installation script"
 msgstr " ◆ $APPNAME: நிறுவல் ஸ்கிரிப்ட் தொடங்குகிறது"
 
-#: modules/install.am:132
+#: modules/install.am:129
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
 msgstr ""
 "\\n இந்த ஸ்கிரிப்ட் உடனடியாக ஒரு AppImageஐ உருவாக்கும், தயவு செய்து காத்திருங்கள்...\\n"
 
-#: modules/install.am:134
+#: modules/install.am:131
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
 msgstr " 💀 பிழை: \\\"$arg\\\" /usr/local/lib இல் ஏற்கனவே உள்ளது"
 
-#: modules/install.am:135
+#: modules/install.am:132
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
 msgstr "\\n ⚠️ இந்த ஸ்கிரிப்ட் /usr/local/lib இல் ஒரு கணினி நூலகத்தை நிறுவும்\\n\\n"
 
-#: modules/install.am:230 modules/install.am:233 modules/install.am:251
-#: modules/install.am:254
+#: modules/install.am:227 modules/install.am:230 modules/install.am:248
+#: modules/install.am:251
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
 msgstr " 💀 நிறுவலின் போது பிழை, $APPNAME அகற்றப்பட்டது!"
 
-#: modules/install.am:240 modules/install.am:1098
+#: modules/install.am:237 modules/install.am:1095
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
 msgstr "\\n                  %bஅனைத்து நிறுவல் செயல்முறைகளின் முடிவு\\n\\033[0m"
 
-#: modules/install.am:267
+#: modules/install.am:264
 msgid " INSTALLATION ABORTED!"
 msgstr " நிறுவல் ரத்து செய்யப்பட்டது!"
 
-#: modules/install.am:485
+#: modules/install.am:482
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
 msgstr ""
 " பல மாறுபாடுகள் கண்டறியப்பட்டன, ஒன்றைத் தேர்வு செய்யவும் அல்லது விலகிவிட ஜீரோ (ZERO) "
 "அழுத்தவும்:\\n\\n"
 
-#: modules/install.am:491
+#: modules/install.am:488
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
 msgstr ""
 "%bதயவு செய்து மற்றொரு உருப்படியைத் தேர்வு செய்யவும் அல்லது \\\"ZERO\\\" அழுத்தவும்."
 "\\n\\n"
 
-#: modules/install.am:496
+#: modules/install.am:493
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
 msgstr "\\n தவறான தேர்வு. நிறுவல் ரத்து செய்யப்பட்டது! \\n"
 
-#: modules/install.am:542
+#: modules/install.am:539
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
 msgstr " 💀 பிழை, \\\"$arg\\\" 3வது தரப்பு தரவுத்தளங்களில் இல்லை"
 
-#: modules/install.am:543
+#: modules/install.am:540
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
 msgstr "\\n 3வது தரப்பு கொடியின்றி மீண்டும் முயற்சிக்கவும்\\n"
 
-#: modules/install.am:551 modules/install.am:1058
+#: modules/install.am:548 modules/install.am:1055
 msgid " Install \\\"$DID_YOU_MEAN\\\" with --$DID_YOU_MEAN_FLAG flag? (Y/n) "
 msgstr ""
 " --$DID_YOU_MEAN_FLAG கொடியுடன் \\\"$DID_YOU_MEAN\\\" ஐ நிறுவ விரும்புகிறீர்களா? "
 "(Y/n) "
 
-#: modules/install.am:553 modules/install.am:1060
+#: modules/install.am:550 modules/install.am:1057
 msgid " Install \\\"$DID_YOU_MEAN\\\" instead? (Y/n) "
 msgstr " அதற்கு பதிலாக \\\"$DID_YOU_MEAN\\\" ஐ நிறுவ விரும்புகிறீர்களா? (Y/n) "
 
-#: modules/install.am:578 modules/install.am:1038
+#: modules/install.am:575 modules/install.am:1035
 msgid " ◆ \\\"$pure_arg\\\" is already installed!"
 msgstr " ◆ \\\"$pure_arg\\\" ஏற்கனவே நிறுவப்பட்டுள்ளது!"
 
-#: modules/install.am:647
+#: modules/install.am:644
 msgid ""
 "\\n \\\"%b%b\\033[0m\\\" is not in the main database, but found in --"
 "%b%b\\033[0m.\\n"
@@ -1710,168 +1710,168 @@ msgstr ""
 "\\n \\\"%b%b\\033[0m\\\" முக்கிய தரவுத்தளத்தில் இல்லை, ஆனால் --%b%b\\033[0m இல் "
 "காணப்பட்டது.\\n"
 
-#: modules/install.am:649
+#: modules/install.am:646
 msgid "\\n Did you mean \\\"%b%b\\033[0m\\\"?\\n"
 msgstr "\\n நீங்கள் \\\"%b%b\\033[0m\\\" என்பதையே குறித்தீர்களா?\\n"
 
-#: modules/install.am:658 modules/install.am:710 modules/management.am:128
+#: modules/install.am:655 modules/install.am:707 modules/management.am:128
 #: modules/management.am:414 modules/management.am:481
 msgid " ✖ ERROR: \\\"%b\\\" is NOT an AppImage\\n"
 msgstr " ✖ பிழை: \\\"%b\\\" ஒரு AppImage இல்லை\\n"
 
-#: modules/install.am:701
+#: modules/install.am:698
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
 msgstr "%b\\n \\\"%b\\\" ஏற்கனவே sandbox செய்யப்பட்டுள்ளது!\\n%b\\n"
 
-#: modules/install.am:705 modules/management.am:126
+#: modules/install.am:702 modules/management.am:126
 msgid " ✖ ERROR: \\\"%b\\\" is not installed\\n"
 msgstr " ✖ பிழை: \\\"%b\\\" நிறுவப்படவில்லை\\n"
 
-#: modules/install.am:718
+#: modules/install.am:715
 msgid " Error: You can't sandbox $1"
 msgstr " பிழை: நீங்கள் $1 ஐ sandbox செய்ய முடியாது"
 
-#: modules/install.am:721
+#: modules/install.am:718
 msgid " ERROR: You need aisap or sas for this script to work"
 msgstr " பிழை: இந்த ஸ்கிரிப்டு வேலை செய்ய நீங்களுக்கு aisap அல்லது sas தேவை"
 
-#: modules/install.am:722
+#: modules/install.am:719
 msgid " NOTE: Only sas can sandbox DWARFS AppImages"
 msgstr " குறிப்பு: DWARFS AppImages ஐ sandbox செய்ய sas மட்டுமே முடியும்"
 
-#: modules/install.am:723
+#: modules/install.am:720
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
 msgstr " ◆ SAS ஐ நிறுக்க விரும்புகிறீர்களா? நிறுவல் அளவு <5 MiB? (Y/n) "
 
-#: modules/install.am:725
+#: modules/install.am:722
 msgid " OPERATION ABORTED!"
 msgstr " செயல்பாடு ரத்து செய்யப்பட்டது!"
 
-#: modules/install.am:728
+#: modules/install.am:725
 msgid " ◆ DO YOU WISH TO INSTALL SAS LOCALLY? (Y/n) "
 msgstr " ◆ SAS ஐ உள்ளூரில் நிறுவ விரும்புகிறீர்களா? (Y/n) "
 
-#: modules/install.am:737
+#: modules/install.am:734
 msgid " sas installed successfully!"
 msgstr " sas வெற்றிகரமாக நிறுவப்பட்டது!"
 
-#: modules/install.am:743
+#: modules/install.am:740
 msgid "Making aisap sandbox script for \\\"%b\\\"...\\n"
 msgstr "\\\"%b\\\" க்கான aisap சாண்ட்பாக்ஸ் ஸ்கிரிப்ட் உருவாக்கப்படுகிறது...\\n"
 
-#: modules/install.am:860
+#: modules/install.am:857
 msgid " Do you want configure access to directories? (Y/n): "
 msgstr " அடைவுகளுக்கான அணுகலை உளமைக்க விரும்புகிறீர்களா? (Y/n): "
 
-#: modules/install.am:867
+#: modules/install.am:864
 msgid " Allow $1 access to \\\"$XDG_DIR\\\"? (y/N) "
 msgstr " $1 க்கு \\\"$XDG_DIR\\\" அணுகலை அனுமதிக்க விரும்புகிறீர்களா? (y/N) "
 
-#: modules/install.am:874
+#: modules/install.am:871
 msgid " Allow $1 access to a specific directory? (y/N) "
 msgstr " $1 க்கு ஒரு குறிப்பிட்ட அடைவிற்கான அணுகலை அனுமதிக்க விரும்புகிறீர்களா? (y/N) "
 
-#: modules/install.am:876
+#: modules/install.am:873
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
 msgstr ""
 "  எச்சரிக்கை: $HOME அல்லது / போன்ற அனைத்திற்கும் அணுகல் கொடுப்பது பாதுகாப்பாக இல்லை"
 
-#: modules/install.am:877
+#: modules/install.am:874
 msgid "  Also aisap might not let $1 start when such paths are given"
 msgstr "  மேலும், இத்தகையான பாதைகள் வழங்கப்பட்டால் aisap $1 தொடங்க அனுமதிக்காமல் போகலாம்"
 
-#: modules/install.am:878
+#: modules/install.am:875
 msgid "  Type the path to the directory"
 msgstr "  அடைவின் பாதையைத் தட்டச்சு"
 
-#: modules/install.am:879
+#: modules/install.am:876
 msgid "  Example: /media/external-drive or ~/Backups: "
 msgstr "  எடுத்துக்காட்டு: /media/external-drive அல்லது ~/Backups: "
 
-#: modules/install.am:885
+#: modules/install.am:882
 msgid "  SPOOKY LOCATION! ARE YOU SURE? IF SO TYPE \\\"YES\\\": "
 msgstr ""
 "  ஆபத்தான இடம்! நீங்கள் உறுதியாக இருக்கிறீர்களா? அப்படி என்றால் \\\"YES\\\" எழுதுங்கள்: "
 
-#: modules/install.am:886
+#: modules/install.am:883
 msgid " That's not \\\"YES\\\", aborting"
 msgstr " அது \\\"YES\\\" அல்ல, விலகுகிறது"
 
-#: modules/install.am:889
+#: modules/install.am:886
 msgid " No path given, aborting"
 msgstr " பாதை வழங்கப்படவில்லை, விலகுகிறது"
 
-#: modules/install.am:893
+#: modules/install.am:890
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
 msgstr "  \\\"$NEWDIR\\\" க்கு அணுகல் கொடுக்கிறது..."
 
-#: modules/install.am:896
+#: modules/install.am:893
 msgid " User directories access configured successfully!"
 msgstr " பயனர் அடைவுகள் அணுகல் வெற்றிகரமாக உளமைக்கப்பட்டது!"
 
-#: modules/install.am:927
+#: modules/install.am:924
 msgid "%b sandbox enabled!"
 msgstr "%b சாண்ட்பாக்ஸ் இயக்கப்பட்டது!"
 
-#: modules/install.am:929
+#: modules/install.am:926
 msgid "Sandbox location: "
 msgstr "சாண்ட்பாக்ஸ் அமைவிடம்: "
 
-#: modules/install.am:931
+#: modules/install.am:928
 msgid ""
 "To change the location, set the \\$SANDBOXDIR variable before launching."
 msgstr "அமைவிடத்தை மாற்ற, தொடங்குவதற்கு முன் \\$SANDBOXDIR மாறியை அமைக்கவும்."
 
-#: modules/install.am:933
+#: modules/install.am:930
 msgid "To disable the sandbox, run one of the following commands:"
 msgstr "சாண்ட்பாக்ஸை முடக்க, பின்வரும் கட்டளைகளில் ஒன்றை இயக்கவும்:"
 
-#: modules/install.am:952
+#: modules/install.am:949
 msgid " ERROR: Not a sandboxed AppImage, aborting"
 msgstr " பிழை: Sandbox செய்யப்பட்ட AppImage இல்லை, விலகுகிறது"
 
-#: modules/install.am:967
+#: modules/install.am:964
 msgid " USAGE: $AMCLI $1 $2 [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 $2 [வாதம்]"
 
-#: modules/install.am:971
+#: modules/install.am:968
 msgid " USAGE: $AMCLI $1 --convert [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --convert [வாதம்]"
 
-#: modules/install.am:996
+#: modules/install.am:993
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --debug [வாதம்]"
 
-#: modules/install.am:997
+#: modules/install.am:994
 msgid " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --force-latest [வாதம்]"
 
-#: modules/install.am:998
+#: modules/install.am:995
 msgid " USAGE: $AMCLI $1 --icons [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --icons [வாதம்]"
 
-#: modules/install.am:999
+#: modules/install.am:996
 msgid " USAGE: $AMCLI $1 --sandbox [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --sandbox [வாதம்]"
 
-#: modules/install.am:1000
+#: modules/install.am:997
 msgid " USAGE: $AMCLI $1 --user [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --user [வாதம்]"
 
-#: modules/install.am:1008
+#: modules/install.am:1005
 msgid ""
 "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
 msgstr "\\n                  %bஅனைத்து நிறுவல் செயல்முறைகளின் தொடக்கம்\\033[0m\\n\\n"
 
-#: modules/install.am:1040
+#: modules/install.am:1037
 msgid " 💀 ERROR: \\\"$pure_arg\\\" command already exists!"
 msgstr " 💀 பிழை: \\\"$pure_arg\\\" கட்டளை ஏற்கனவே உள்ளது!"
 
-#: modules/install.am:1046
+#: modules/install.am:1043
 msgid " 💀 ERROR: the file \\\"$arg\\\" does NOT exist"
 msgstr " 💀 பிழை: கோப்பு \\\"$arg\\\" இல்லை"
 
-#: modules/install.am:1054
+#: modules/install.am:1051
 msgid ""
 "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
@@ -1881,43 +1881,43 @@ msgstr ""
 "பட்டியலைச் சரிபார்க்கவும், \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" கட்டளையை �யக்கவும்."
 "\\n\\n\" \"${Gold}\")"
 
-#: modules/install.am:1099
+#: modules/install.am:1096
 msgid "\\n             The following new programs have been installed:\\n\\n"
 msgstr "\\n             பின்வரும் புதிய நிரல்கள் நிறுவப்பட்டுள்ளன:\\n\\n"
 
-#: modules/install.am:1108
+#: modules/install.am:1105
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 user/project [வாதம்]"
 
-#: modules/install.am:1109
+#: modules/install.am:1106
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
 msgstr " பயன்பாடு: $AMCLI $1 user/project [வாதம்] [முக்கிய வார்த்தை]"
 
-#: modules/install.am:1110
+#: modules/install.am:1107
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT]"
 msgstr " பயன்பாடு: $AMCLI $1 --user user/project [வாதம்]"
 
-#: modules/install.am:1111
+#: modules/install.am:1108
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
 msgstr " பயன்பாடு: $AMCLI $1 --user user/project [வாதம்] [முக்கிய வார்த்தை]"
 
-#: modules/install.am:1161
+#: modules/install.am:1158
 msgid " Do you wish reinstall everything? (N/y): "
 msgstr " நீங்கள் அனைத்தையும் மறுநிறுவ விரும்புகிறீர்களா? (N/y): "
 
-#: modules/install.am:1163
+#: modules/install.am:1160
 msgid "%b\\n ABORTED! \\n%b\\n"
 msgstr "%b\\n ரத்து செய்யப்பட்டது! \\n%b\\n"
 
-#: modules/install.am:1165
+#: modules/install.am:1162
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
 msgstr "%b\\n அனைத்தையும் மறுநிறுக்கிறது...\\n%b\\n"
 
-#: modules/install.am:1246
+#: modules/install.am:1243
 msgid "- Found differences in %b, it probably needs to be updated.\\n"
 msgstr "%b இல் வேறுபாடுகள் கண்டறியப்பட்டுள்ளன, அதனைப் புதுப்பிக்க வேண்டியிருக்கலாம்.\\n"
 
-#: modules/install.am:1266
+#: modules/install.am:1263
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
@@ -1925,11 +1925,11 @@ msgstr ""
 "%b\\n ஆன்லைன் தரவுத்தளத்தில் நிறுவல் ஸ்கிரிப்டுகளில் மாற்றங்கள் உள்ளதா எனச் சரிபார்க்கிறது..."
 "\\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " App removal and reinstallation complete! \\n%b\\n"
 msgstr " பயன்பாடு அகற்றுதல் மற்றும் மறுநிறுவல் முடிந்தது! \\n%b\\n"
 
-#: modules/install.am:1295
+#: modules/install.am:1292
 msgid " Nothing to do here! \\n%b\\n"
 msgstr " இங்கே செய்ய ஒன்றும் இல்லை! \\n%b\\n"
 
