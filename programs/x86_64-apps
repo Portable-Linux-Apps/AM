@@ -1861,6 +1861,7 @@
 ◆ nmeasimulator : NMEA sentence generator utility to broadcast via TCP.
 ◆ nnn : n³ The unorthodox terminal file manager
 ◆ no-fwl : NoFWL Desktop Application.
+◆ node : This is the official suite of Node.js tools, also known as "NodeJS", a JavaScript runtime built on Chrome's V8 JavaScript engine.
 ◆ nodeflow : An Editor for creating simple or complex OCR workflows.
 ◆ nodes : A new way to create with code.
 ◆ nohup : Run a command immune to hangups, with output to a. This is part of "am-utils" suite.
