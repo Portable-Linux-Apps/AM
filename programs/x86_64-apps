@@ -1884,8 +1884,9 @@
 ◆ notesnook : Private note-taking app that encrypts everything on client side.
 ◆ notify-send : A program to send desktop notifications. This is part of "am-utils" suite.
 ◆ novelwriter : Plain text editor designed for writing novels, supports a minimal markdown-like syntax for formatting text.
-◆ npm : Package manager for Node.js. This script installs the full "node" suite.
+◆ npm : npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently.
 ◆ nproc : Print the number of processing units available. This is part of "am-utils" suite.
+◆ npx : Run a command from a local or remote npm package (see "npm").
 ◆ nrf-connect : Framework for desktop apps for development kits.
 ◆ nsz : Unofficial, Homebrew compatible NSP/XCI compressor/decompressor.
 ◆ ntfydesktop : A desktop client for ntfy. Allows you to subscribe to topics from any ntfy server and recieve notifications natively on the desktop.
