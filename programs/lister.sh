@@ -62,11 +62,15 @@ for arch in $DIRS; do
 	wait
 	for type in appimages portable; do
 		if [ -f "$arch-$type" ]; then
-			sort -u "$arch-$type" o "$arch-$type"
+			sort -u "$arch-$type" > list
+			wait
+			sort -u list > "$arch-$type"
 			wait
 		fi
 		if [ "$arch" = x86_64 ]; then
-			sort -u "stats-$type" -o "stats-$type"
+			sort -u "stats-$type" > list
+			wait
+			sort -u list > "stats-$type"
 			wait
 		fi
 		rm -f list
@@ -90,7 +94,8 @@ for arch in $DIRS; do
 			fi
 		done
 	fi
-	[ -f "$arch-tmplist" ] && sort -u "$arch-tmplist" > "$arch-apps"
+	[ -f "$arch-tmplist" ] && sort "$arch-tmplist" > "$arch-apps"
+	wait
 	rm -f "$arch-tmplist"
 done
 echo "Done!"
