@@ -5,9 +5,9 @@ rm -f "stats-appimages" "stats-portable"
 _stats_appimages() {
 	if [ "$arch" = x86_64 ]; then
 		if grep -q "appimage-extract .*.desktop\|appimage-extract .*share/applications\|^mv .*usr/local/share/applications\|HEREDOC.*usr/local/share/applications" "./$arch/$arg"; then
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itsdesktopapp/' >> "stats-appimages"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itsdesktopapp/' >> "stats-appimages"
 		else
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itscliapp/' >> "stats-appimages"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itscliapp/' >> "stats-appimages"
 		fi
 	fi
 }
@@ -15,7 +15,7 @@ _stats_appimages() {
 _stats_portable2appimage() {
 	if [ "$arch" = x86_64 ]; then
 		if grep -qi "^curl.*.sh.*chmod.*&&\|^curl.*main/portable2appimage" "./$arch/$arg"; then
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itsappimageonthefly/' >> "stats-portable"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itsappimageonthefly/' >> "stats-portable"
 		fi
 	fi
 }
@@ -23,11 +23,11 @@ _stats_portable2appimage() {
 _stats_portable() {
 	if [ "$arch" = x86_64 ]; then
 		if grep -q "\[Desktop Entry\]" "./$arch/$arg"; then
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itsdesktopapp/' >> "stats-portable"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itsdesktopapp/' >> "stats-portable"
 		elif ! grep -q "#printf.*AM.desktop" "./$arch/$arg" && grep -q "AM.desktop" "./$arch/$arg"; then
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itsdesktopapp/' >> "stats-portable"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itsdesktopapp/' >> "stats-portable"
 		else
-			grep "◆ $arg :" "$arch-apps" | head -1 | sed 's/$/ #itscliapp/' >> "stats-portable"
+			grep "◆ $arg :" "$arch-apps" | sed 's/$/ #itscliapp/' >> "stats-portable"
 		fi
 	fi
 }
@@ -35,16 +35,16 @@ _stats_portable() {
 _run_lister() {
 	if [ -f "./$arch/$arg" ]; then
 		if [ "$arch" = aarch64 ] && grep -q "^◆ $arg :" "x86_64-apps"; then
-			grep "^◆ $arg :" "x86_64-apps" | head -1 >> "$arch-tmplist"
+			grep "^◆ $arg :" "x86_64-apps" >> "$arch-tmplist"
 		else
-			grep "^◆ $arg :" "$arch-apps" | head -1 >> "$arch-tmplist"
+			grep "^◆ $arg :" "$arch-apps" >> "$arch-tmplist"
 		fi
 		if grep -qe "appimageupdatetool" "./$arch/$arg" 1>/dev/null; then
-			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-appimages"
+			grep "◆ $arg :" "$arch-apps" >> "$arch-appimages"
 			_stats_appimages
 			_stats_portable2appimage
 		else
-			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-portable"
+			grep "◆ $arg :" "$arch-apps" >> "$arch-portable"
 			_stats_portable
 		fi
 	fi
@@ -62,15 +62,11 @@ for arch in $DIRS; do
 	wait
 	for type in appimages portable; do
 		if [ -f "$arch-$type" ]; then
-			sort -u "$arch-$type" > list
-			wait
-			sort -u list > "$arch-$type"
+			sort -u "$arch-$type" o "$arch-$type"
 			wait
 		fi
 		if [ "$arch" = x86_64 ]; then
-			sort -u "stats-$type" > list
-			wait
-			sort -u list > "stats-$type"
+			sort -u "stats-$type" -o "stats-$type"
 			wait
 		fi
 		rm -f list
@@ -94,7 +90,7 @@ for arch in $DIRS; do
 			fi
 		done
 	fi
-	[ -f "$arch-tmplist" ] && sort "$arch-tmplist" > "$arch-apps"
+	[ -f "$arch-tmplist" ] && sort -u "$arch-tmplist" > "$arch-apps"
 	rm -f "$arch-tmplist"
 done
 echo "Done!"
