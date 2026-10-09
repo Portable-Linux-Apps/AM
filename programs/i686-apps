@@ -11,13 +11,13 @@
 ◆ kdegames : Full & updatable KDE Games suite from Debian Stable (recommended).
 ◆ opennox : An open-source community collaboration project extending the Nox engine.
 ◆ portable2appimage : Convert standalone, self-contained portable apps into AppImage packages.
-◆ retroarch-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
-◆ retroarch-qt-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
-◆ retroarch-qt : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
 ◆ retroarch : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-qt : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+◆ retroarch-qt-nightly : RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
 ◆ starship : The minimal, blazing-fast, and infinitely customizable prompt for any shell.
-◆ supertuxkart-dev : Free kart racing game focused on Fun! Pre-release.
 ◆ supertuxkart : Free kart racing game focused on Fun!
+◆ supertuxkart-dev : Free kart racing game focused on Fun! Pre-release.
 ◆ tor-browser : Privacy-oriented Web Browser for sites blocked in your country.
 ◆ usdx : The free and open source karaoke singing game UltraStar Deluxe, inspired by Sony SingStar™.
 ◆ uv : An extremely fast Python package and project manager, written in Rust.

@@ -25,23 +25,23 @@
 ◆ afsplug : Use top domestic and foreign AI models for free with zero token cost.
 ◆ agency : A desktop app for running coding agents in parallel, each isolated in its own git worktree.
 ◆ agent-desktop : An highly configurable desktop client for your favourite LLM.
-◆ agentkib : Local-first desktop control plane for coding-agent context, Skills, sessions, and toolchains.
 ◆ agent-launcher : Configure and run existing coding-agent CLIs from one desktop app.
 ◆ agent-lens : See every observable action of an AI-encoded agent. Trace your agents down to every tool and MCP call.
-◆ agento : Production ready Personal AI Agent Platform using Claude Code CLI. Focused on productivity, reliability and security at it's core.
 ◆ agent-os : DesireCore Agent OS. An open, delegation-based AgentOS (Agent Operating System) — a teachable, file-based AI companion desktop app you can grow.
 ◆ agent-pulse : Know what your agents are doing.
+◆ agentkib : Local-first desktop control plane for coding-agent context, Skills, sessions, and toolchains.
+◆ agento : Production ready Personal AI Agent Platform using Claude Code CLI. Focused on productivity, reliability and security at it's core.
 ◆ agentrq : AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support.
 ◆ ai-canvas : An ai canvas for agentic design.
+◆ ai-manager : AI Manager desktop application for AI coding tools.
+◆ ai-yemot : An AI-based editor for Yemot HaMashiach phone lines.
 ◆ aiden-agent : Pi based agent for Designers, Coders and Everyday users.
 ◆ aigcforge : Forge AIGC. Forge Anything.
 ◆ aigcpanel : AIGCPanel is a simple and easy-to-use one-stop AI digital human system that supports video synthesis, sound synthesis, and sound cloning, simplifying local model management, and one-click import and use of AI models. ..
-◆ ai-manager : AI Manager desktop application for AI coding tools.
 ◆ aio-proxy : Every model. Every client. One endpoint. A local AI gateway that serves OpenAI, Anthropic, and Gemini clients from API keys or your existing ChatGPT, Claude, Copilot, and Cursor subscriptions — with protocol conversion, failover routing, and request traces.
 ◆ aipixel : AI pixel art - walking pictures, battle frames, special effects frames, background layers, sprite pictures, pixel pictures, frame animations, tile maps, AIPixel, Aseprite, RPG Maker materials, RPGツクールu200c, Pixel Game Maker, Godot, Action Game Maker, Unity, independent games, game development, game production...
 ◆ airamusic : The third-party NetEase Cloud music desktop client based on React and Electron supports independent multi-windows (comments, pictures, playlists, albums, settings), Agent, external MCP access, dynamic color selection, lyrics display, music spectrum, desktop lyrics, tray and other functions..
 ◆ airlock-relay : Give agents capabilities. Keep credentials local. A local relay that gives AI agents, scripts, and automation controlled access to HTTP, SSH, and LLM APIs — without exposing real URLs, passwords, or API keys.
-◆ ai-yemot : An AI-based editor for Yemot HaMashiach phone lines.
 ◆ akhenaten : Unofficial. Open-source engine for Pharaoh (+Cleopatra) city-building game.
 ◆ alacritty : Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.
 ◆ aleapp : Android Logs Events And Protobuf Parser.
@@ -49,24 +49,24 @@
 ◆ altersend : Send files directly between devices over the internet - no cloud, no servers, no size limits.
 ◆ altgo : Altgo is a desktop speech-to-text tool. Simply hold down the trigger key to speak; upon release, it automatically records, transcribes, and optionally polishes the text. The result is copied to the system clipboard and displayed as a single line in a floating window at the bottom of the screen.
 ◆ alwide : The Modern TUI IDE. The intuitive experience in your terminal.
+◆ am-gui : Graphical frontend for AM/AppMan — install, update and manage AppImages and other portable formats on Linux.
+◆ am-gui-beta : Graphical frontend for AM/AppMan — install, update and manage AppImages and other portable formats on Linux (beta version).
 ◆ amarok : Unofficial. Powerful music player that lets you rediscover your music.
 ◆ amethyst : Nostr client for Android.
-◆ am-gui-beta : Graphical frontend for AM/AppMan — install, update and manage AppImages and other portable formats on Linux (beta version).
-◆ am-gui : Graphical frontend for AM/AppMan — install, update and manage AppImages and other portable formats on Linux.
 ◆ amiberry : Unofficial. Optimized Amiga emulator.
 ◆ amule : All-platform P2P client based on eMule. aMule is a free, GPL-licensed peer-to-peer file-sharing client for the eD2k and Kademlia networks.
 ◆ anda-app : Anda AI agents client app.
 ◆ androidtoolkit : Power-user Android, Quest, and TV device toolkit for ADB management, sideloading, backups, debloating, cleanup, and system tools.
-◆ ani2xcursor : Yet another cli tool that convert Windows animated cursors to Linux Xcursor themes.
 ◆ ani-mime : Floating macOS status pill that tracks terminal & Claude Code activity.
+◆ ani2xcursor : Yet another cli tool that convert Windows animated cursors to Linux Xcursor themes.
 ◆ anoa-browser : Headless browser with full Chrome DevTools Protocol (CDP) support. Distributed as a single self-contained binary — no Node.js or npm required.
 ◆ another-one : ADE written in rust.
 ◆ antares : An useful SQL client based on Electron.js and Vue.js.
 ◆ antigravity-manager : Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust). Professional Antigravity account management and switching tool. Provide one-click seamless account switching function for Antigravity. ..
 ◆ antigravity-shield : 🛡️ Hardened, anti-ban AI account manager & proxy gateway for Antigravity & Gemini. Eliminates 403 Forbidden issues, prevents sandbox detection, and supports Claude Code & Cursor.
+◆ any-listen-desktop : A cross-platform private music playback service.
 ◆ any2bibtex : An efficient desktop tool for turning paper identifiers into BibTeX.
 ◆ anya-ra : AI-Powered research assistant for making literature reviews suck less.
-◆ any-listen-desktop : A cross-platform private music playback service.
 ◆ aonsoku : A modern desktop client for Navidrome/Subsonic servers built with React and Electron.
 ◆ apidog : API design, debugging, testing, and mock tool.
 ◆ appimagetool : Tool to generate an AppImage from an existing AppDir.
@@ -146,10 +146,10 @@
 ◆ braintentacle : Tentacle BIT · Desktop AI Agent: Conversation / Tools / Memory / Skills / Secure Data Sanitization / MCP Extensions; built with Tauri, Rust, and React.
 ◆ bramble : Local-first password manager with direct device-to-device sync.
 ◆ brassworkslauncher : The official launcher for the Brassworks SMP. Built with Rust.
+◆ brave : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "stable" release.
 ◆ brave-beta : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "beta" release.
 ◆ brave-nightly : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "nightly" release.
 ◆ brave-origin : Unofficial. Stripped down version of Brave Browser with no extra features.
-◆ brave : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "stable" release.
 ◆ briar : Briar Desktop. Censorship-resistant peer-to-peer messaging that bypasses centralized servers. Connect via Bluetooth, Wi-Fi or Tor, with privacy built-in.
 ◆ bridgeclip : Open-source AI video clipping desktop app by BridgeMind.
 ◆ brows3 : Super fast open-source S3 browser, S3 explorer, and desktop client for Amazon S3, MinIO, Cloudflare R2, Wasabi, and other S3-compatible storage.
@@ -163,11 +163,13 @@
 ◆ butterup : 🧈 One friendly place to update everything on Ubuntu & Debian — apt, snap and flatpak updates, health checks, guided repairs and cleanup, in a native Tauri app.
 ◆ byedpi-gtk : A privacy-focused GTK frontend for byedpi.
 ◆ bytetable : A fast, local-first GUI for SQLite, MySQL, PostgreSQL, Ms SQL Server, Redis, DynamoDB, MongoDB, Cassandra, ClickHouse and Typesense. Cross-platform, fully native on MacOS, Linux, Windows, no account, no subscription.
+◆ c-dogs-sdl : Unofficial. C-Dogs SDL. A modern SDL-based port of the classic overhead action game C-Dogs.
+◆ c-ssh : C-SSH 0.9.0 · Windows / Apple Silicon Mac / Android · SSH, RDP, AI & self-hosted cloud. Manual download required. Three-terminal official version, this time you must download and install it manually. ..
 ◆ cadabra2 : A field-theory motivated approach to computer algebra.
 ◆ cadence : Floating Spotify lyrics overlay: synced lyrics, 3D holographic frames, album theming.
 ◆ caelo : Open-source desktop client for the xAI Grok API — chat, image & video generation, voice, and an agentic coding module with local file access. Bring your own key, no telemetry.
-◆ cairn-app : Cairn — fast cross-platform Git client (Tauri 2 + Rust + React). Signed & notarized installers.
 ◆ cairn : Cairn is an AI notes and project management tool with a built in MCP server.
+◆ cairn-app : Cairn — fast cross-platform Git client (Tauri 2 + Rust + React). Signed & notarized installers.
 ◆ calendar : A simple calendar app.
 ◆ calibraw : Free, open-source Lightroom-style RAW editor for Linux, Android, Windows and macOS. GPU-accelerated, non-destructive, with masks, HDR merge and local AI.
 ◆ calliope-ai-desktop : Desktop releases for Calliope AI IDE and Calliope AI Lab - AI-powered development and data analysis tools.
@@ -191,18 +193,17 @@
 ◆ cctvvideodownloader : A tool for parsing and processing online video streams from CCTV.com.
 ◆ ccx : Claude / Codex / Gemini API Proxy - CCX.
 ◆ cdj3k-emu : An emulator for the CDJs in QEMU on Apple Silicon, with emulated SPI controls, jog LCD, USB, PC-LINK and Pro DJ Link network.
-◆ c-dogs-sdl : Unofficial. C-Dogs SDL. A modern SDL-based port of the classic overhead action game C-Dogs.
 ◆ cdogs-sdl : Unofficial. Classic overhead run-and-gun game.
 ◆ cells : Infinite Canvas for Agents, Terminals and Browser.
 ◆ cerious-aasm : Ark Ascended Server Manager.
 ◆ cgtimer : Display elapsed and remaining time for CasparCG clips.
 ◆ chacrypt : Cross-platform offline-first file & streaming encryption powered by ChaCha20-Poly1305, featuring ChaBox (GUI) and ChaPose (CLI).
 ◆ charter : Charter as one cross-platform desktop app on a Rust core: run tons of harness sessions in parallel (ADR 0025).
-◆ chat2api-wxs : Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlcaw, Cline, and Roo-Code — making any OpenAI-compatible client work out of the box.
+◆ chat-on-steroids : Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.
 ◆ chat2api : Zero-cost access to leading AI models by driving their official web UIs. Supports DeepSeek, GLM, Kimi, MiniMax, Qwen and Z.ai, and integrates with Cline, Roo-Code and other tools.
+◆ chat2api-wxs : Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlcaw, Cline, and Roo-Code — making any OpenAI-compatible client work out of the box.
 ◆ chatboxai : Chatbox is a desktop client for ChatGPT, Claude and other LLMs.
 ◆ chatgpt-client : Linux-friendly Electron wrapper for ChatGPT.
-◆ chat-on-steroids : Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.
 ◆ cheatbreaker : The free FPS boosting modpack for Minecraft 1.7 & 1.8.
 ◆ chemthistry : ChemThisTry is a cross-platform scientific graphics workstation unifying data plotting, chemical structure drawing, 3D molecular visualization, and figure compositing — a lightweight alternative to Origin + ChemDraw + VESTA + Illustrator. Built with Electron + React + TypeScript.
 ◆ cherry-studio : Agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs.
@@ -216,25 +217,25 @@
 ◆ clarity : Your Linux game library in one app. GOG, Epic, Steam and emulators in one place — desktop manager, install engine, and a gamepad-driven fullscreen mode for the TV. 93 themes, including retro-OS skins.
 ◆ classicube : Unofficial. Custom Minecraft Classic / ClassiCube client written in C from scratch
 ◆ classin : Unofficial. Interactive online classroom and remote learning platform.
-◆ claudecodemonitor : A cross-platform desktop application for monitoring Claude Code usage via Prometheus telemetry. Runs on macOS, Linux, and Windows.
 ◆ claude-code-provider-gateway : The easiest way to use Claude Code with any LLM. Install the app, pick your provider, done.
-◆ claude-desktop-extra : Unofficial Linux packages for Claude Desktop AI assistant with automated updates.
 ◆ claude-desktop : Unofficial. Claude is a next generation AI assistant built by Anthropic and trained to be safe, accurate, and secure to help you do your best work.
+◆ claude-desktop-extra : Unofficial Linux packages for Claude Desktop AI assistant with automated updates.
 ◆ claude-journal : Not just a viewer. Talk to Claude & Codex from your browser, edit real history, annotate, search, and analyze everything.
-◆ claudelens : A desktop app to visually explore and manage your local Claude Code data.
 ◆ claude-mcp-server : Enable Codex to directly call Claude's native MCP protocol like a sub-Agent, supporting transfer stations and native APIs..
 ◆ claude-multi : Free desktop app: run Claude Code with multiple accounts and auto-switch when one hits its 5-hour limit. 24/7 auto-loop, parallel chats, live cooldown timers. No API key needed.
 ◆ claude-usage-widget : A beautiful, standalone desktop widget that displays your Claude.ai usage statistics in real-time.
 ◆ claude-vault : Keep Claude Desktop chats safe when switching accounts — local-first backup and restore for conversations.
+◆ claudecodemonitor : A cross-platform desktop application for monitoring Claude Code usage via Prometheus telemetry. Runs on macOS, Linux, and Windows.
+◆ claudelens : A desktop app to visually explore and manage your local Claude Code data.
+◆ claw-switch : All-in-One Manager for OpenClaw.
 ◆ clawmate : A proactive on-device intelligent operating system for HarmonyOS, featuring proactive perception, autonomous decision-making, lightweight user modeling, and local LLM deployment across smartphones and PCs.
 ◆ clawpier : Desktop app for managing sandboxed OpenClaw and Hermes AI agent instances via Docker. Built with Tauri v2.
 ◆ claws-mail : Unofficial. Claws Mail. A lightweight, fast, and feature-rich email client for Linux.
-◆ claw-switch : All-in-One Manager for OpenClaw.
 ◆ clew : Clear path from where you are to what you want to learn. AI agent turns goals and topic dumps into graph with visible dependencies (generative roadmap.sh).
 ◆ cli-chess : A highly customizable way to play chess in your terminal. Supports playing online (via Lichess.org) and offline against the Fairy-Stockfish engine. All Lichess variants are supported.
+◆ cli-launcher : Cross-platform desktop launcher for AI coding CLIs. Install, update, uninstall, and launch 17 terminal AI agents (Claude Code, OpenCode, Gemini CLI, GitHub Copilot, Aider, and more) from one mac-style panel. Built with Electron + React + TypeScript + Vite + Tailwind CSS.
 ◆ clickhouseformatexplorer : Dev tool for visualizing ClickHouse RowBinary and Native format data.
 ◆ clide : Clide — AI SSH terminal desktop app with Claude Code IDE & MCP integration. Tauri · Windows/macOS/Linux..
-◆ cli-launcher : Cross-platform desktop launcher for AI coding CLIs. Install, update, uninstall, and launch 17 terminal AI agents (Claude Code, OpenCode, Gemini CLI, GitHub Copilot, Aider, and more) from one mac-style panel. Built with Electron + React + TypeScript + Vite + Tailwind CSS.
 ◆ cliloom : CLILoom brings agent harnesses, visual workflows, and real terminals together in one desktop workspace. Quickly design, customize, and plan workflows that fit the way you work. Run your favorite coding agents side by side, with support for any CLI, including Claude Code, Codex, OpenCode, Antigravity, Copilot, Cursor, Pi, Kimi, Qwen, and more.
 ◆ clio-agent : A science agent supporting any general AI agent in performing data management operations at scale. Builds upon the heritage of the IOWarp platform and proudly represents work done at Gnosis Research Center at Illinois Tech. Supported by NSF.
 ◆ clipper : Clipboard syncing tool, recreated.
@@ -247,8 +248,8 @@
 ◆ cms-launcher : A packaged application to launch Drupal CMS.
 ◆ coach : Desktop coach for Claude Code sessions.
 ◆ cockpit-tools : 🚀 Universal AI IDE account management tool: supports Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, multi-account switching, quota monitoring, automatic wake-up and multi-instance management. 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta..
-◆ codeburn : Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 ◆ code-editor : Cursor-Codex-lite: Gateway-integrated code editor with AI coding agent.
+◆ codeburn : Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 ◆ codeeraser : An eraser against LLM-induced code & document entropy. Support if you like it!.
 ◆ codepilot : A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.
 ◆ codetrellis : Installer downloads and release notes for CodeTrellis — macOS, Windows, Linux and the mobile companion. Source lives at lionroseway/codetrellis (Apache 2.0).
@@ -277,8 +278,8 @@
 ◆ coopanion : Your little universal desktop companion: Desk Pet Coo lives at the bottom of the screen, chats, listens to you, and helps you operate the computer. Based on Cortico, fill in the API Key and use it. ..
 ◆ copperline : An Amiga emulator written in Rust.
 ◆ copyclip : A native, open-source clipboard manager for Linux, inspired by the Windows clipboard. Fast, lightweight, and keyboard-first — one hotkey on both X11 and Wayland.
-◆ copyq-enhanced : Unofficial. Clipboard manager with advanced editing and scripting features.
 ◆ copyq : Unofficial. An advanced clipboard manager with powerful editing and scripting features.
+◆ copyq-enhanced : Unofficial. Clipboard manager with advanced editing and scripting features.
 ◆ cordial : Open-source Roblox runtime for Linux. Cordial runs the Roblox client natively, no Wine, no Android emulator. Multi-instance launcher, customizable, GPL-3.0 and fully auditable. A direct alternative to Sober.
 ◆ corsixth-enhanced : Unofficial. Open source clone of Theme Hospital.
 ◆ coxswain : Coxswain: Norton Commander style file manager with Everything-speed search. Terminal (Ratatui) and desktop (Tauri) apps, git in every panel.
@@ -292,7 +293,6 @@
 ◆ crossmobile : Create native iOS/Android/Windows apps in Java.
 ◆ crossover : 🎯 A Crosshair Overlay for any screen. Boilerplate to kickstart creating an app with Electron.
 ◆ crossplatformdownloadmanager : A fast, open-source, and feature-rich download manager for Windows, Linux, and macOS with multi-threading, queue support, and browser integration.
-◆ c-ssh : C-SSH 0.9.0 · Windows / Apple Silicon Mac / Android · SSH, RDP, AI & self-hosted cloud. Manual download required. Three-terminal official version, this time you must download and install it manually. ..
 ◆ cuberite : Unofficial. A lightweight, fast and extensible game server for Minecraft.
 ◆ cue : Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.
 ◆ curlit : A lightweight, open-source API client built with React and TypeScript. Features collections, environments, cURL/Postman/OpenAPI import, multi-tab interface, and dark/light themes.
@@ -300,8 +300,9 @@
 ◆ cursor-token-manager : Cursor token manager, manage multiple accounts, switch accounts, reset machine codes, clean conversation records..
 ◆ cutawan : Free, open-source desktop video clipper for podcasts and long videos. Make captioned shorts with AI clip finding, speaker-aware reframing, and ChatGPT/Codex sign-in.
 ◆ cxshell : A cross-platform SSH/SFTP terminal and remote session client built with Avalonia and AtomUI.
-◆ cyberether : High-performance GPU-accelerated signal processing and visualization framework that runs anywhere.
 ◆ cy-kaf-client : Kafka manage console ui.
+◆ cyberether : High-performance GPU-accelerated signal processing and visualization framework that runs anywhere.
+◆ d-code : Unofficial desktop client for the Claude Code CLI — session history, live chat, editor with LSP and debugger, git, and plan limits.
 ◆ d1x-rebirth : Unofficial. A source port of the Descent engine.
 ◆ d2x-rebirth : Unofficial. A source port of the Descent 2 engine.
 ◆ dabri : Minimalist, privacy-first, offline Speech-to-Text (STT) application.
@@ -315,7 +316,6 @@
 ◆ dayglance : Your day, at a glance.
 ◆ dbdelve : Fast and lightweight DB Client made in Rust and GPUI.
 ◆ dbflux : A fast, keyboard-first database client built with Rust and GPUI.
-◆ d-code : Unofficial desktop client for the Claude Code CLI — session history, live chat, editor with LSP and debugger, git, and plan limits.
 ◆ dealers-choice : A cross-platform, networked multiplayer poker game supporting draw, stud, and community-card variants, including Texas.
 ◆ debriddownloader : Free, open-source desktop client for Real-Debrid, TorBox, and Premiumize. Resumable multi-connection downloads, light and dark mode. macOS, Windows, Linux.
 ◆ debrify : Your personal media hub — browse, stream, and organize media from your own services and servers, with a cinematic built-in player.
@@ -323,8 +323,8 @@
 ◆ decodium-4-0-core-shannon : Decodium 4.0 Core Shannon - FT8/FT4/FT2/Q65  UI Design IU8LMC Martino Merola Code  C++  Power Salvatore Raccampo 9H1SR elisir80  (Windows QML fork) C.
 ◆ deemix-remastered : Deemix Remastered: hi-res FLAC from Qobuz, the full Deezer catalog, Spotify link conversion, pro-grade tagging, and the Signal Deck interface. macOS, Windows, Linux.
 ◆ deepchat : 🐬DeepChat - A smart assistant that connects powerful AI to your personal world.
-◆ deepseek-harness-code : Community desktop packaging for DeepSeek Harness with an Electron host, integrated plugins, and an independent watchdog.
 ◆ deepseek-harness : First-class Linux packaging for DeepSeek Harness desktop — AppImage, .deb, .tar.gz for x64/arm64, built by native CI.
+◆ deepseek-harness-code : Community desktop packaging for DeepSeek Harness with an Electron host, integrated plugins, and an independent watchdog.
 ◆ deepseek-whale-pet : A small, transparent whale that stays pinned to the bottom-right corner of your desktop, providing real-time updates on your DeepSeek balance and daily usage. You can drag it around, click it to hear it make sounds, and it even speaks random lines; it runs completely independently, without relying on DSH or a web browser.
 ◆ deepthink : DeepThink, A Loop Engineering App Running On Desktop, and Integregate IM channels (feishu, wexin, etc.)  最新版在 Gitcode:..
 ◆ deezer-discord-rpc : A Discord RPC for Deezer.
@@ -333,8 +333,8 @@
 ◆ dethrace : Unofficial. Reverse engineering the 1997 game "Carmageddon".
 ◆ devilutionx-enhanced : Unofficial. Diablo build for modern operating systems.
 ◆ devnexus : DevNexus — Cross-platform PHP & Laravel local development environment with multi-PHP, MySQL, PostgreSQL, Redis, Caddy, Node.js, AI/MCP, queues, cron, backups & diagnostics. A modern alternative to XAMPP, Laragon, WAMP & Laravel Herd.
-◆ devolutions-terminal : Devolutions Terminal - cross-platform Windows Terminal in C and Avalonia.
 ◆ devo : Model-neutral agent desktop/runtime for private, enterprise, and OpenAI-compatible / Anthropic-compatible model API. Tested on DeepSeek, Qwen, Kimi, GLM models. Supports MCP,  Skills,and local code search.
+◆ devolutions-terminal : Devolutions Terminal - cross-platform Windows Terminal in C and Avalonia.
 ◆ devtools : Ultimate developers toolkit desktop app.
 ◆ dez : Interact with LLMs inside of a plain text editor. Zed's Text Threads reborn as an independent app.
 ◆ dhewm3 : Unofficial. Doom 3 GPL source port.
@@ -370,9 +370,9 @@
 ◆ downkyicore : Bili Download Ji (cross-platform version) downkyi, Bilibili website video download tool, supports batch downloads, supports 8K, HDR, Dolby Vision, and provides toolboxes (audio and video extraction, watermark removal, etc.). ..
 ◆ downvid : A modern, open-source video downloader — download high-definition, watermark-free videos from across the web with a single click; a GUI for yt-dlp.
 ◆ dpcc-harness : Open-source, desktop client/UI build to harness Pi and any other Agent accepting Agent Client Protocol. Run multiple AI coding agents side by side with rich tool visualization, MCP integrations, built-in terminal, git, browser and just about anything else you may need.
+◆ dr-robotniks-ring-racers : Unofficial. Kart racing video game originally based on SRB2Kart.
 ◆ drally : Unofficial. A port of Death Rally (1996).
 ◆ draw.io : draw.io desktop.
-◆ dr-robotniks-ring-racers : Unofficial. Kart racing video game originally based on SRB2Kart.
 ◆ drum-machine : Unofficial. Application for managing and playing with drum patterns.
 ◆ dsd-neo : A modern, modular, and performance enhanced C/C++ decoder for digital voice. DMR, P25, NXDN, YSF, and more.
 ◆ dsh-app : A community-maintained branded desktop client for DeepSeek Harness, Windows / macOS / Linux.
@@ -384,11 +384,11 @@
 ◆ duduclaw : Open-source AI Agent platform — 80+ MCP tools, 7 channels (Slack/Discord/LINE/Telegram), Rust + Python. Self-hostable Claude/GPT alternative for production multi-LLM systems.
 ◆ duplicati : Store securely encrypted backups on cloud storage services.
 ◆ eaon-desktop : The Eaon desktop app — an AI chat client that runs on your own API keys. Built with
-◆ easycommandrunner : A simple GUI application for saving and running command-line configurations.
 ◆ easy-dataset : A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval..
+◆ easy-ops : Gather scattered Shell scripts into one window: group management, one-click running in a real terminal, and syntax highlighting editing. macOS/Windows/Linux..
+◆ easycommandrunner : A simple GUI application for saving and running command-line configurations.
 ◆ easyeffects : Unofficial. Easy Effects. An audio effects application for PipeWire that provides equalizers, compressors, limiters, and other processing tools.
 ◆ easykiconverter : Qt 6/C++17 converter for LCSC and EasyEDA components to KiCad, Altium, and Xpedition libraries.
-◆ easy-ops : Gather scattered Shell scripts into one window: group management, one-click running in a real terminal, and syntax highlighting editing. macOS/Windows/Linux..
 ◆ easyshell : A powerful, modern, cross-platform, multi-protocol client.
 ◆ ebalistyka : A high performance cross-platform ballistic calculator.
 ◆ ebloid-desktop : An unofficial desktop client for eblo.id built with Tauri.
@@ -401,9 +401,9 @@
 ◆ eduke32 : Unofficial. An advanced Duke Nukem 3D source port.
 ◆ elastic : Unofficial. Visualize and design physics-based animation of objects.
 ◆ electerm : 📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client.
-◆ electroncapture : Playback video in a frameless electron app for screen-sharing and window capture.
 ◆ electron-kvm-rdev : USB KVM客户端 USB KVM client with enhaced low-level keyboard capturing..
 ◆ electron-vvt : Electron, vue, vite, typescript projects...
+◆ electroncapture : Playback video in a frameless electron app for screen-sharing and window capture.
 ◆ element-desktop : Unofficial. Glossy Matrix collaboration client for desktop.
 ◆ ember : 5-chan dedicated browser Ember. A dedicated browser that recreates the comfortable experience of Live5ch using a modern technology stack. With a focus on overview, speed, and readability, Ember restores the standard for a seamless 5ch browsing experience.
 ◆ emdash : The Open-Source Agentic Development Environment. Run multiple coding agents in parallel. Use any provider.
@@ -427,8 +427,8 @@
 ◆ exogui : Launcher for eXoDOS. Basic and forked from Flashpoint Launcher.
 ◆ exort : Exort is a coding agent for embedded devices.
 ◆ extension-manager : A native tool for browsing, installing, and managing GNOME Shell Extensions.
-◆ extremegrecomp : Unofficial. Extreme-G Recompiled. A modern PC recompilation of the Nintendo 64 racing game Extreme-G.
 ◆ extreme-infinitv : Cross-platform IPTV player for Xtream Codes and M3U/M3U8 playlists. TV remote support, EPG, and offline downloads. Windows, macOS, Linux, Android and TV - on Microsoft Store, Google Play and Snap Store.
+◆ extremegrecomp : Unofficial. Extreme-G Recompiled. A modern PC recompilation of the Nintendo 64 racing game Extreme-G.
 ◆ extremetuxracer : Unofficial. 3D racing game with Tux, the Linux penguin.
 ◆ exult : Unofficial. A project to recreate Ultima 7 for modern operating systems.
 ◆ eyedropper : Unofficial. Simple color picker, with support for various color palettes.
@@ -447,10 +447,10 @@
 ◆ filament-db : A desktop and web application for managing 3D printing filament profiles. Import filament configurations from PrusaSlicer, store them in MongoDB or MongoDB Atlas, and manage them through a clean interface.
 ◆ filex : Self-hosted file manager: one Go binary, a full web UI, and storage that plugs in — local, S3, SFTP, WebDAV, FTP, SMB. The same tree is also reachable AS S3, SFTP, FTPS, NFS and WebDAV, so rclone, restic, WinSCP or a scanner land where the browser does. Embeddable UI, desktop app, built-in MCP server. MIT.
 ◆ fini : A quest-based productivity system for ADHD brains that helps people finish things.
+◆ firefox : Fast, powerful and extensible Web Browser, Stable.
 ◆ firefox-beta : Fast, powerful and extensible Web Browser, Beta Edition.
 ◆ firefox-devedition : Fast, powerful and extensible Web Browser, Developer Edition.
 ◆ firefox-esr : Fast, powerful and extensible Web Browser, ESR Edition.
-◆ firefox : Fast, powerful and extensible Web Browser, Stable.
 ◆ firefox-nightly : Fast, powerful and extensible Web Browser, Nightly Edition.
 ◆ fivedollars : FiveDollars API Client Free | lightweight Postman alternative.
 ◆ fizzy : A cross-platform open-source modular general editor written in Zig.
@@ -481,8 +481,8 @@
 ◆ forge : Fast, model-agnostic AI coding harness and CLI in Rust — routes every task to the optimal model for cost × capability.
 ◆ formal-ai : Symbolic first, formal, logical, and data driven associative language processor. A template for AI driven development pipeline for Rust.
 ◆ forumwatch : Always-on system tray forum monitoring: keywords, pricing rules, and AI semantic matching. Matches are instantly pushed to Telegram (including AI commentary and daily summaries).
-◆ frame-control : Frame Control: a Mac app to manage a Valve Steam Frame over SSH, plus scripts and field notes.
 ◆ frame : Fast FFmpeg GUI.
+◆ frame-control : Frame Control: a Mac app to manage a Valve Steam Frame over SSH, plus scripts and field notes.
 ◆ freac : fre:ac, free audio converter and CD ripper for various encoders.
 ◆ freebox : A PC version/sister application to TVBox, dedicated to extending TVBox's functionality and ecosystem across platforms.
 ◆ freecad-weekly : Official developmet build of FreeCAD, a free and opensource multiplatform 3D parametric modeler.
@@ -545,9 +545,9 @@
 ◆ goldendict-ng : Unofficial. An advanced dictionary lookup program, supporting many formats.
 ◆ goodbuddy : Desktop access to model chat, coding agents, knowledge, and scheduled work
 ◆ gooey-pi : Desktop workspace for Pi, OMP, and Prime Agent.
+◆ google-chrome : Unofficial. Web Browser, Stable version.
 ◆ google-chrome-beta : Unofficial. Web Browser, Beta version.
 ◆ google-chrome-dev : Unofficial. Web Browser, Unstable version.
-◆ google-chrome : Unofficial. Web Browser, Stable version.
 ◆ gpui-memory-game : A copy of kids-memory-game built with Rust and gpui.
 ◆ gradia : Unofficial. Screenshot/picture editor and uploader.
 ◆ grapefruit : A Rockbox and iPod Classic focused Music Manager with Plex Support.
@@ -619,8 +619,8 @@
 ◆ iris-enhanced : Unofficial. Sony PlayStation 2 emulator.
 ◆ irpf2025 : Appimage não oficial do IRPF2025, declare seu imposto de renda (Ano-calendário 2024).
 ◆ irpf2026 : Appimage não oficial do IRPF2026, declare seu imposto de renda (Ano-calendário 2025).
-◆ isle-portable-enhanced : Unofficial. A portable version of LEGO Island (1997).
 ◆ isle-portable : Unofficial. A portable version of LEGO Island (1997).
+◆ isle-portable-enhanced : Unofficial. A portable version of LEGO Island (1997).
 ◆ isobar : Cross-platform HF weather-fax (WEFAX) decoder — interoperable with KG-FAX. C++17 + FLTK + RtAudio. GPLv3+.
 ◆ itgmania : Unofficial. A fork of StepMania 5.1, an advanced cross-platform rhythm game for home and arcade use.
 ◆ itr2025 : Appimage não oficial do ITR2025, declare seu imposto dos seus imóveis rurais (Ano-calendário 2025).
@@ -668,8 +668,8 @@
 ◆ kmines : Unofficial. KMines. A classic Minesweeper-style puzzle game developed as part of KDE Games.
 ◆ kmux : Terminal workspace for running parallel AI coding agents (Claude Code, Codex CLI, Antigravity CLI) on macOS and Linux. Features multi-session resume, API usage dashboards, and automated git worktrees.
 ◆ knights : Unofficial. KDE's chess game frontend.
-◆ komai : A fine Matrix chat app you can get to love 🦁.
 ◆ koma : koma is a fast, native AI coding agent that lives in your terminal — reading your code, shipping features, and running your tools without you ever leaving the command line.
+◆ komai : A fine Matrix chat app you can get to love 🦁.
 ◆ komet : Komet — control your coding agents locally by default, with optional multi-device sync.
 ◆ kotodama : One desktop window for ChatGPT, Claude, Gemini, Grok, Perplexity, Qwen, DeepSeek and Z.ai. Fast, private, fully local. Built with Tauri and Rust.
 ◆ kpat : Unofficial. KPatience. A collection of classic solitaire card games for the KDE desktop.
@@ -726,11 +726,11 @@
 ◆ llama-server-manager : Llama Server Manager is a desktop manager for llama-server, covering model downloads and inventory, engine management, instance lifecycle, cluster workers, unified API routing, performance telemetry, and logs.
 ◆ llm-wiki : LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。..
 ◆ lnwjud : Lnwjud — local AI-agent runtime & MCP gateway.
+◆ local-lake-notes : This is a prototype of a local note-taking application built with Tauri, designed to enable the direct editing of .lake documents on the desktop using the Yuque Lake editor.
+◆ local-security-pass-vault : Local-first password manager — zero cloud, zero telemetry. Rust+Tauri 2+XChaCha20-Poly1305+Argon2id+SQLCipher. 6 item types incl. Servers, BIP-39 backup, browser extension, OS Keychain.
 ◆ localflow : LocalFlow is an open-source, private voice typing and local speech-to-text app.
 ◆ localgen-new : Play generals.io completely offline!.
-◆ local-lake-notes : This is a prototype of a local note-taking application built with Tauri, designed to enable the direct editing of .lake documents on the desktop using the Yuque Lake editor.
 ◆ localrouter : Local firewall for LLMs, MCPs, and Skills.
-◆ local-security-pass-vault : Local-first password manager — zero cloud, zero telemetry. Rust+Tauri 2+XChaCha20-Poly1305+Argon2id+SQLCipher. 6 item types incl. Servers, BIP-39 backup, browser extension, OS Keychain.
 ◆ localwallet : Local wallet vault.
 ◆ loom : Loom — local-first control plane for coding agents: one CLI, shared memory, baton handoffs across Claude Code, OpenCode, and friends.
 ◆ loop : The open source coding agent.
@@ -767,8 +767,8 @@
 ◆ mayros : The governed AI agent platform: semantic memory, intelligent model routing, an MCP server, and 67+ integrations.
 ◆ mcp-dock : MCP Server & Config Manager for 14 AI Clients — Cursor, VS Code, Claude Code, Gemini CLI, Windsurf, Zed, TRAE, Kiro, JetBrains & more. 8500+ servers, 4400+ skills.
 ◆ mcpelauncher-manifest : The Bedrock edition Minecraft launcher.
-◆ mdcz : JAV video metadata scraping and media library organization tool | JAV metadata scraper for Emby/Jellyfin/Kodi: NFO, auto-rename, Desktop + WebUI/Docker..
 ◆ md-editor : A daily-usable Markdown and MDX-compatible desktop editor.
+◆ mdcz : JAV video metadata scraping and media library organization tool | JAV metadata scraper for Emby/Jellyfin/Kodi: NFO, auto-rename, Desktop + WebUI/Docker..
 ◆ mdict-editor : Visual editor for MDict .mdx/.mdd dictionaries — category-managed resources, CodeMirror editing with Ctrl+Click resource jumps, compression pipeline, export with optional lossy copies. Built on mdictlib (Rust) + Tauri 2 + Svelte 5.
 ◆ melee-pc : Native PC port of Super Smash Bros. Melee (NTSC-U 1.02), built from doldecomp/melee on aurora. No game data; bring your own disc.
 ◆ melia-app : Releases and downloads for Melia, a native email client for Linux (Snap, .deb, .rpm, AppImage, Flatpak).
@@ -778,19 +778,19 @@
 ◆ memocash : Your wallet. Your social network.
 ◆ mergers : A visual diff and merge tool for files and directories.
 ◆ meru : Unofficial Gmail desktop application.
-◆ meshchatx : All-in-one Reticulum client.
 ◆ mesh-client : Cross-platform Electron desktop client for Meshtastic, MeshCore, and Reticulum on macOS, Linux, and Windows with multi-language support, BLE, USB serial, Wi‑Fi/TCP, MQTT, local SQLite history, and routing diagnostics. EMCOMM support via MECP & TAK.
+◆ meshchatx : All-in-one Reticulum client.
 ◆ meshcommunityplanner : Desktop application for planning LoRa mesh network deployments with terrain-aware RF propagation, hardware selection, and bill of materials generation.
 ◆ meshinspector : Mesh processing application.
 ◆ meshtalk : Monorepo for MeshTalk, a privacy-first, end-to-end encrypted peer-to-peer messaging for LAN and internet peers. No accounts, no central message store, and local conversation history.
 ◆ meshtastic : The Meshtastic client app for communicating over open-source mesh radios.
-◆ messenger-desktop-client-unofficial : A secure, feature-rich unofficial desktop client for Facebook Messenger.
 ◆ messenger : Free unofficial Facebook Messenger desktop client that fills the gap left by Meta's discontinued app. Tiny (just ~5 MB instead of 100-200 MB), fast, distraction-free. No feed, no reels, no marketplace. Just your conversations in a dedicated window. Built with ❤️ & Tauri for Windows, macOS and Linux.
+◆ messenger-desktop-client-unofficial : A secure, feature-rich unofficial desktop client for Facebook Messenger.
 ◆ metabuli-app : Metabuli, a metagenomic classifier that jointly analyzes both DNA and amino acid sequences.
 ◆ metacubexd : Mihomo Dashboard, The Official One, XD.
 ◆ metamask : MetaMask Desktop (小狐狸钱包桌面端 / メタマスク デスクトップ) — Safe cross-platform Web3 crypto wallet app for Windows, macOS and Linux.
-◆ metermaid : Cross-platform desktop LUFS / EBU R128 loudness meter with true-peak and a real-time spectrum analyzer, built with Tauri (Rust + web UI).
 ◆ meterm : Multi-client shared terminal session system — Real-time terminal collaboration
+◆ metermaid : Cross-platform desktop LUFS / EBU R128 loudness meter with true-peak and a real-time spectrum analyzer, built with Tauri (Rust + web UI).
 ◆ mgba-enhanced : Unofficial. Game Boy Advance Emulator.
 ◆ miaominal : A native SSH workspace built with Rust, featuring split terminals, SFTP, OpenSSH integration, port forwarding, encrypted sync, and AI agents for remote development.
 ◆ microbrowser : Ultra lightweight Chromium v8 engine browser for low-RAM devices like the Raspberry Pi Zero with 512 MB RAM.
@@ -798,9 +798,9 @@
 ◆ midori-vpn-desktop : Desktop client for MidoriVPN.
 ◆ migurdex : A tool for searching and watching Turkish anime in the terminal: Acheriya, AniHub, AnimeciX, Animexe, AnimPow, Anizium, Anizm, AsyaAnimeleri, Deokwave, OpenAnime, SonAnime, TrAnimeIzle, TRAnimeci, TurkAnime (Archive).
 ◆ mindgraph-notes : This the repo to my new PKM Software.
+◆ mini-vmac : Unofficial. A miniature Macintosh 68K emulator.
 ◆ minion-mind : Minion-mind-releases.
 ◆ miniter : Rust based non-linear video editor for basic tasks.
-◆ mini-vmac : Unofficial. A miniature Macintosh 68K emulator.
 ◆ minke : 🐳 DeepSeek Harness Desktop.
 ◆ miosub : Traditional subtitle tools allow you to jump repeatedly between "transcription", "translation", "proofreading" and "timeline". .
 ◆ mirrorshard : A writing editor equipped with an AI chat function and an idea processor. The design is minimalist with an emphasis on immersion. ..
@@ -810,11 +810,11 @@
 ◆ mivra : WYSIWYG Markdown editor for Windows 10/11. Fast Tauri/Rust desktop app for local .md files with source mode, Mermaid diagrams, themes, and S3 image uploads.
 ◆ mmvj : Intuitive force feedback-enabled mouse steering and more: HID and MIDI transforming I/O mapper and virtual HID manager, for Linux.
 ◆ mnemo : Mnemo is a free, open-source study application built with Photino X and .NET 10, designed to help students, researchers, and lifelong learners master any subject.
+◆ mo-gallery-web : A modern image gallery app with integrated frontend and backend, supporting several deployment methods and storage backends.
 ◆ mochipaw : MochiPaw is a Tauri + Vue desktop pet app based on BongoCat.
 ◆ mocktail : Experimental Roblox compatibility runtime for Linux and FreeBSD.
 ◆ modbux : Free open-source Modbus client (master) GUI and server simulator for Windows, macOS and Linux. Desktop tool for Modbus TCP, RTU and RTU over TCP. A modern alternative to Modbus Poll and QModMaster.
 ◆ modemu2k : A Hayes AT-command modem emulator that bridges a serial interface to TCP/Telnet.
-◆ mo-gallery-web : A modern image gallery app with integrated frontend and backend, supporting several deployment methods and storage backends.
 ◆ monadic-chat : Monadic Chat is a locally hosted web application for creating and using intelligent chatbots. It gives LLMs a Linux environment on Docker, so they can run code and use external tools.
 ◆ monbooru : Self-hosted, booru-style gallery for a personal image collection.
 ◆ montally : Pokémon Encounter Tracker: log encounter stats, estimate shiny probability, and optimize your shiny hunting strategy. A simple, intuitive tool for every Pokémon trainer. Works with PokeMMO and Pokemon Revolution Online.
@@ -831,8 +831,8 @@
 ◆ mousai : Unofficial. Application for identifying songs using libre utilities.
 ◆ mpv-nightly : Unofficial. A free, open source, and cross-platform media player (nightly build).
 ◆ mpz : Folder player for big local music collections.
-◆ mq3t : The last MQTT development tool you'll ever need.
 ◆ mq-studio : 🚀 A local-first, cross-platform desktop client for every message queue — one pluggable driver model across RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT and more. ..
+◆ mq3t : The last MQTT development tool you'll ever need.
 ◆ mqtt-viewer : The modern and open-source MQTT debugging and visualisation tool.
 ◆ msh3js : A MSH file viewer for the 3D meshes of the original Star Wars Battlefront games ('04/'05).
 ◆ multica : Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable. Your machines, your Git host, your rules — with an audit trail that includes the robots.
@@ -849,15 +849,15 @@
 ◆ nativepi : Free, open-source cross-platform desktop app for the Pi coding agent on Windows, macOS, and Linux. Projects, conversations, streamed tool activity, diffs, model controls, and graphical extensions in one native workspace.
 ◆ navibeat-linux : A native Linux desktop music player for Navidrome and OpenSubsonic. Release binaries and feedback for the NaviBeat Linux beta.
 ◆ nblood : Unofficial. Blood port based on EDuke32.
-◆ nekobox : NyameBox, The Original NekoBox Rebranded, the cross-platform Qt proxy utility, empowered by sing-box and thrift.
 ◆ neko-project-ii-kai : Unofficial. A PC-9801 series emulator.
+◆ nekobox : NyameBox, The Original NekoBox Rebranded, the cross-platform Qt proxy utility, empowered by sing-box and thrift.
 ◆ neo : A distraction-free word processor for authors, by a wannabe author.
+◆ neo-mofox-launcher : An elegant Neo-MoFox QQ bot instance management launcher.
 ◆ neomacs : NEO Emacs (WIP): GPU powered Emacs written in Rust with a modern display engine. Aiming for modern design & multi-threaded Elisp, 10x performance, zero-pause concurrent GC and 100% Emacs compatibility.
 ◆ neomind : NeoMind is a Rust-based edge AI platform that enables autonomous device management and automated decision-making through Large Language Models (LLMs).
 ◆ neomist : A world computer in your pocket.
-◆ neo-mofox-launcher : An elegant Neo-MoFox QQ bot instance management launcher.
-◆ neostation-frontend : The Multiplatform Emulation Frontend.
 ◆ neost : NeoST : Atari ST/STE Emulator based on Moira.
+◆ neostation-frontend : The Multiplatform Emulation Frontend.
 ◆ nereussdr : Cross-platform OpenHPSDR SDR console — Qt6 + C++20, GPU-accelerated waterfall, multi-panadapter, full WDSP DSP.
 ◆ nerftrack : Think Codex limits got nerfed by can't prove it? Prove it with NerfTrack.
 ◆ nerves-desktop : Desktop app for managing Nerves devices.
@@ -878,8 +878,8 @@
 ◆ nimbo : VPN client for Android, iOS, and desktop featuring Xray, AmneziaWG, and Mihomo.
 ◆ nintendo-music-rpc : Discord RPC for Nintendo Music.
 ◆ nixamp : It really whips the terminal's ass. Open-source streaming platform: turn a folder into a live radio station, TV channel or film night anyone can tune into. Terminal player, web app and desktop app on one engine, with a public directory, rooms, live subtitles and x402 pay-to-listen. Nothing uploaded, no platform in the middle.
-◆ nohal : HAL Editor for LinuxCNC.
 ◆ no-land : Cloud gaming platform that provisions GPU-powered Linux PCs on demand, combining Rust, Tauri, Sunshine, Moonlight and low-latency networking.
+◆ nohal : HAL Editor for LinuxCNC.
 ◆ nomacs : Nomacs is a free, open source image viewer, which supports multiple platforms.
 ◆ noornote : A slim yet feature rich Nostr client that doesn't rely on any Google services, under an open source license.
 ◆ nooto : A cross-platform, privacy-focused note-taking application with end-to-end encryption and self-hostable sync capabilities. The application prioritizes local-first architecture with optional cloud synchronization, enabling users to maintain full control over their data.
@@ -894,8 +894,8 @@
 ◆ nugget-doom-enhanced : Unofficial. A Doom source port forked from Woof! with additional features.
 ◆ nvim : NeoVim, Vim fork focused on extensibility and usability.
 ◆ nvim-nightly : NeoVim, Vim fork, the most recent development build.
-◆ nxengine-evo-enhanced : Unofficial. A somewhat upgraded/refactored version of NXEngine.
 ◆ nx-optimizer : NX-Optimizer (Known As TOTK-Optimizer) is a Mod Manager for UltraCam, a code injection mod for the following Games: The Legend of Zelda - Tears of the Kingdom, Breath Of The Wild, Echoes Of Wisdom, Link's Awakening and More.
+◆ nxengine-evo-enhanced : Unofficial. A somewhat upgraded/refactored version of NXEngine.
 ◆ nxshell20 : A modern, cross-platform terminal emulator and remote session manager built with Electron + Vue 3.
 ◆ nyaterm : A modern remote terminal workspace.
 ◆ nym-vpn-client : Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities.
@@ -922,17 +922,23 @@
 ◆ one-click-coding-agent : No cloud, no API keys, no subscriptions.
 ◆ one-click-research-agent : A desktop application (Electron + React) featuring an autonomous AI agent and a local LLM (powered by llama.cpp) designed for research tasks.
 ◆ ontime : Free, open-source time keeping for live events.
+◆ open-orpheus : An open-source and cross-platform (Linux, macOS, Windows) implementation of Netease Cloud Music's Orpheus browser host. ..
+◆ open-pointcloud-studio : Pointcloud editing tool.
+◆ open-quest-hub : Open Quest Hub is a powerful ADB wrapper designed for VR and Android.
+◆ open-science : The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.
+◆ open-sstv : Open source python powered SSTV.
+◆ open-video-downloader : A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.
 ◆ openade : Agentic Development Environment for Devs Who Don't Ship Slop.
 ◆ openbitfun : OpenBitFun is an open-source desktop workspace for AI agents. It brings together a fast, reliable Rust Agent Runtime, a powerful, flexible Agent Harness, and a polished desktop experience to make working with agents straightforward.
 ◆ openburningsuite : A free, open-source disc burning application for Windows, Linux, and macOS.
 ◆ openchamber : Agentic Development Environment based on OpenCode AI agent.
-◆ openclaw-manager : High-performance cross-platform AI assistant management tool, built on Tauri 2.0 + React + TypeScript + Rust. .
 ◆ openclaw : Unofficial. Reimplementation of Captain Claw (1997) platformer.
-◆ opencode2api-enhance : Hajimi North and South Mung Beans~..
+◆ openclaw-manager : High-performance cross-platform AI assistant management tool, built on Tauri 2.0 + React + TypeScript + Rust. .
+◆ opencode : The open source coding agent.
 ◆ opencode-cli : Unofficial. Open-source AI coding agent CLI utility.
 ◆ opencode-enhanced : Unofficial. Open-source AI coding agent CLI utility.
+◆ opencode2api-enhance : Hajimi North and South Mung Beans~..
 ◆ opencodemonitor : OpenCode Monitor is a desktop app for monitoring and interacting with OpenCode agents across multiple workspaces.
-◆ opencode : The open source coding agent.
 ◆ opencomic-nightly : 🚧 Development builds of OpenComic with the latest changes
 ◆ openconverter : A lightweight format conversion and decoding tool for audio workflow, supporting format decryption..
 ◆ opendeck : Linux software for the Stream Deck with support for original Elgato Stream Deck plugins.
@@ -946,30 +952,24 @@
 ◆ openmohaa : Unofficial. OpenMoHAA. An open-source reimplementation of the Medal of Honor: Allied Assault game engine.
 ◆ openmsx : Unofficial. The MSX emulator that aims for perfection.
 ◆ opennow : Community-built GeForce NOW client.
-◆ open-orpheus : An open-source and cross-platform (Linux, macOS, Windows) implementation of Netease Cloud Music's Orpheus browser host. ..
 ◆ openpalm : Personal AI assistant(s) powered by OpenCode.
 ◆ openpencil : The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.
 ◆ openpets : Local first, desktop companion platform with animated pets, plugin SDK and coding-agent integrations.
 ◆ openplanter : A recursive-language-model investigation agent with a desktop GUI and terminal interface. OpenPlanter ingests heterogeneous datasets — corporate registries, campaign finance records, lobbying disclosures, government contracts, and more — resolves entities across them, and surfaces non-obvious connections through evidence-backed analysis. It operates autonomously with file I/O, shell execution, web search, and recursive sub-agent delegation.
 ◆ openplayer : Beautiful, extensible, high-performance cross-platform media player built with Tauri, Rust, React, and libmpv.
-◆ open-pointcloud-studio : Pointcloud editing tool.
 ◆ openq4 : The modern way to play QUAKE 4.
-◆ open-quest-hub : Open Quest Hub is a powerful ADB wrapper designed for VR and Android.
 ◆ openquota : Open-source, cross-platform tracker for AI coding usage, limits, reset times, and spend.
 ◆ openrct2-enhanced : Unofficial. Re-implementation of RollerCoaster Tycoon 2 (RCT2), expanding the game with new features.
 ◆ openresearch : Turn your coding agents into research agents.
 ◆ opensak : Cross-platform geocaching tool.
-◆ open-science : The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.
 ◆ openscp : A lightweight, cross-platform file transfer client with a dual-panel workflow, secure defaults, and support for SFTP, SCP, FTP, FTPS, and WebDAV.
 ◆ openship : Self-hosted deployment platform.
 ◆ opensnitch : Unofficial. OpenSnitch. A GNU/Linux application firewall that monitors and controls outgoing network connections.
 ◆ openspeech : Open-source AI voice input for desktop. Free, private, cross-platform. Open-source AI voice input desktop application, free, private, cross-platform. ..
-◆ open-sstv : Open source python powered SSTV.
 ◆ openswe1r : Unofficial. An open-source port of the 1999 game Star Wars Episode 1: Racer.
 ◆ opentesarena : Unofficial. OpenTESArena. An open-source recreation of The Elder Scrolls: Arena with modern system support and improvements.
 ◆ openttd : Unofficial. An open source simulation game based upon Transport Tycoon Deluxe.
 ◆ opentyrian2000 : Unofficial. An open-source port of the DOS shoot-em-up Tyrian.
-◆ open-video-downloader : A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.
 ◆ opsdeck : A single DevOps engineer dashboard: a terminal with AI nearby and a local model, Kubernetes, databases, a built-in IDE with git, Grafana/ArgoCD/GitLab in tabs, alerts, notes with tasks and reminders, KeePass, SSH, and MikroTik.
 ◆ opsnerva : Secure, local-first AI operations agent for SSH automation, troubleshooting, deployment, and recovery, with approval control, sandboxing, and encrypted audit.
 ◆ optiimage : Unofficial. Optimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types.
@@ -988,8 +988,8 @@
 ◆ pacto-app : Private, Censorship-Resistant, & Governable Community Application.
 ◆ pairlet : Pairlet (formerly CC Pocket / cc-pocket) — Continue your local AI coding tasks from phone, tablet, or desktop.
 ◆ pairux-com : Collaborative screen sharing with simultaneous remote control — like Screenhero, but open source.
-◆ paneflow : Native terminal multiplexer for coding agents. Persistent sessions, Git worktrees, diffs, and an integrated editor. Built with Rust and GPUI.
 ◆ pane : Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
+◆ paneflow : Native terminal multiplexer for coding agents. Persistent sessions, Git worktrees, diffs, and an integrated editor. Built with Rust and GPUI.
 ◆ paperback : An accessible, light-weight, cross-platform ebook and document reader.
 ◆ paperboat : Unofficial. PaperBoat that can work on any linux distro. A lightweight application designed to provide a simple and portable desktop experience.
 ◆ paperling : A minimal, distraction-free markdown editor built with Tauri, React, and TypeScript.
@@ -1002,9 +1002,9 @@
 ◆ pathsafe : Pathology WSI de-identifier.
 ◆ pawse : A fast, native music player for your local library, built in Rust and GPUI, with a buttery-smooth, customizable 120+ fps interface, exclusive (bit-perfect) output, and a rich feature set.
 ◆ payloader : A self-hosted knowledge workbench designed for authorized security testing, offensive-defensive exercises, and security research.
+◆ pc-recap : A visual time capsule for your computer life. Turn real app usage into daily, weekly, monthly, and yearly recaps on Windows, macOS, and Linux.
 ◆ pcbu-desktop : Desktop app for PC Bio Unlock.
 ◆ pcexhumed : Unofficial. Port of the PC version of Exhumed based on EDuke32.
-◆ pc-recap : A visual time capsule for your computer life. Turn real app usage into daily, weekly, monthly, and yearly recaps on Windows, macOS, and Linux.
 ◆ pcsx-redux-enhanced : Unofficial. Modern fork of the pcsxr PlayStation 1 emulator focused on reverse engineering and homebrew development.
 ◆ pdf-arranger : Unofficial. A small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages.
 ◆ pdf-bunny : Poppler based fast pdf viewer written in PyQt5.
@@ -1029,8 +1029,8 @@
 ◆ pi-agent-dashboard : Real-time web dashboard for pi coding-agent sessions. Multi-session view, live chat mirroring, integrated terminal, diff viewer, pi-flows execution, and mobile-first remote control via mDNS or zrok tunnel. Coexists with pi's TUI — doesn't replace it.
 ◆ pichamber : A Pi-native workspace for coding sessions on desktop. Run agent work. Keep control. Ship from anywhere.
 ◆ piclite : PicLite 图轻 / PicLite — privacy-first image and GIF compression for Web, Windows, macOS and Linux..
-◆ picoforge : An open source commissioning tool for Pico FIDO security keys.
 ◆ pico-store-lab : Download the PICO editions of VRChat, YouTube VR and more, with guides for installing without changing headset region.
+◆ picoforge : An open source commissioning tool for Pico FIDO security keys.
 ◆ picsharp : A modern, full-featured, high-performance, cross-platform image compression application with a modern UI, full-featured, high-performance, cross-platform image compression tool..
 ◆ pideck : PiDeck is an open source desktop workbench for unified management of pi Agent sessions in the local project directory, and supports the import of Codex and Claude local sessions for unified browsing and recovery. Supports multi-project workspaces, session history, Git integration, built-in terminal, model configuration and plugin management, built on Electron. ..
 ◆ piglit : Unofficial. A collection of automated tests for OpenGL, Vulkan, and OpenCL implementations.
@@ -1049,8 +1049,8 @@
 ◆ poke-idle-launcher : Launcher open source da comunidade Poke Idle World: ate 4 contas, coleta pela rede, painel de metricas, alertas e overlay. Windows e Linux.
 ◆ pokemmo : Unofficial. MMO based on the Pokémon Universe.
 ◆ poltertype : Detects typing in the wrong keyboard layout, switches it and fixes the word. Tray app for Windows · macOS · Linux (Wayland & X11). Pure Rust, zero telemetry..
-◆ polymc : A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).
 ◆ poly-ui : A lightweight, high-performance AI desktop application designed to be completely local.
+◆ polymc : A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).
 ◆ polywms : Modern, offline-first Warehouse Management System — built with SvelteKit ◆ polywms : Modern, offline-first Warehouse Management System — built with SvelteKit & Electron. Electron.
 ◆ pom1 : Apple 1 Emulator + SDK.
 ◆ pom2 : Most Apple II emulators give you a screen and a disk drive. POM2 gives you the bus, the beam, the phosphor — and a time machine.
@@ -1070,8 +1070,8 @@
 ◆ prixumlauncher : Лаунчер Minecraft с новым дизайном, редактором тем и масштабированием рендера.
 ◆ project-carminium : Pure music player, supports local/Navidrome. ..
 ◆ protocol_10 : A mod decompiler for frosty tool suite.
-◆ protondrive-gui : Desktop GUI for the official Proton Drive CLI by Linux. Browse, upload, and download your Proton Drive files without the terminal. Built with Python + PySide6.
 ◆ proton-drive-sync : Local folders, automatically synced to Proton Drive. (Unofficial Sync Client).
+◆ protondrive-gui : Desktop GUI for the official Proton Drive CLI by Linux. Browse, upload, and download your Proton Drive files without the terminal. Built with Python + PySide6.
 ◆ protonplus : A modern compatibility tools manager.
 ◆ psstpsst : A decentralized, end-to-end encrypted messaging app.
 ◆ pt2vhf-aprs-client : Cliente de APRS simples, leve e eficiente.
@@ -1081,8 +1081,8 @@
 ◆ purepan : PurePan is a modern Baidu Netdisk third-party client built using Rust and Tauri, providing a simple interface and efficient upload/download functions. ..
 ◆ purevox : PureVox – Lightweight AI denoiser, voice extractor, and echo canceller. Input from web, Android, Linux, Windows mics. Output clean audio to PC.
 ◆ purffle-grab : Free open-source YouTube downloader & Spotify playlist downloader for Windows, Mac & Linux. YouTube to MP3/MP4 up to 4K, Spotify playlists to MP3/FLAC with cover art. Built-in audio player, equalizer, format converter. No ads, no signup.
-◆ pyglossary : Unofficial. A tool for converting dictionary files aka glossaries.
 ◆ py-gpt : Desktop AI Assistant powered by GPT-6, GPT-5, Gemini, Claude, Grok, Ollama, DeepSeek, Perplexity, and more - chat, agents, tools, MCP, plugins, RAG, vision, voice, image and video generation, speech synthesis and speech recognition, web search, memory, presets, canvas, assistants, themes, computer use.
+◆ pyglossary : Unofficial. A tool for converting dictionary files aka glossaries.
 ◆ pyrowave-streaming : PyroWave low-latency codec for Vibepollo + Moonlight (Steam Deck/SteamOS, Android): overview, notes, scripts and downloads.
 ◆ python : AppImage distributions of Python, an interactive high-level object-oriented language.
 ◆ qarma : Unofficial. Qarma is a tool to create dialog boxes, based on Qt. It's a clone of Zenity.
@@ -1095,8 +1095,8 @@
 ◆ qqpet-automation : QQ Pet (Retro) for macOS: reverse-engineered, telemetry removed, running on Ruffle Flash, with an automatic maintenance CLI.
 ◆ qtcreator : Unofficial. Lightweight, cross-platform integrated development environment.
 ◆ qterminal : Unofficial. A lightweight Qt terminal emulator based on QTermWidget.
-◆ quantumlauncher-enhanced : Unofficial. A simple, powerful Minecraft launcher.
 ◆ quantum-leap : A native macOS SSH-powered iperf3 client with real-time TCP/UDP bandwidth visualization.
+◆ quantumlauncher-enhanced : Unofficial. A simple, powerful Minecraft launcher.
 ◆ quantumtv : QuantumTV is a cross-platform local film and television aggregation player built on Tauri. The front end uses Next.js and the core logic is implemented in Rust. ..
 ◆ quaver-music : Yet another 3rd party QQ Music client, based by Electron + Vite, Design for the Linux Desktop.
 ◆ quemusic : An all-in-one online music player built on the Qt QML framework, featuring a beautiful UI and high performance.
@@ -1107,34 +1107,34 @@
 ◆ ramus : A genre-first hierarchical music client for Plex.
 ◆ rapidcmi5 : RapidCMI5 is a CMI5 course creation toolset.
 ◆ raptor : Unofficial. Reversed-engineered source port from Raptor Call Of The Shadows.
-◆ raspberry-pi-imager-cli : The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices. CLI edition.
 ◆ raspberry-pi-imager : The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices. Desktop edition.
+◆ raspberry-pi-imager-cli : The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices. CLI edition.
 ◆ ratarmount : Access large archives as a filesystem efficiently, e.g., TAR, RAR, ZIP, GZ, BZ2, XZ, ZSTD archives.
 ◆ ratiomaster-net-2-0 : RatioMaster 2.0 (forked) simulates upload/download stats on almost all private BitTorrent trackers to improve your ratio.
 ◆ rauhwpx : A Korean document editor that fixes errors directly using AI.
 ◆ rayburst : Redefining the open-source download manager.
 ◆ rclone-manager : RClone Manager is a cross-platform GUI application designed to help users manage Rclone remotes efficiently.
+◆ re-sputnik : Desktop wizard that sets up and manages your own VPN router — no terminal or special skills required.
 ◆ react-carplay : This is a react based carplay application, that utilised the Carlinkit dongle (cpc200-ccpa or cpc200-ccpm) to provide raspberry pi (and others) compatible carplay application.
-◆ readest-enhanced : Unofficial. An enhanced version of Readest, a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
 ◆ readest : Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
+◆ readest-enhanced : Unofficial. An enhanced version of Readest, a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
 ◆ readmd : Local-first, full-platform Markdown reader and editor: long document semantic paging, display layer non-destructive error correction, Office/PDF/webpage to MD, offline OCR, LaTeX academic enhancement and MCP access.
 ◆ reckless-drivin-sdl : Native SDL2 port of Reckless Drivin' (2000) — runs on macOS and Linux, no emulator required.
-◆ recopied : A lightweight clipboard history manager for Linux.
 ◆ reco : Unofficial. An audio recorder focused on being concise and simple to use
-◆ rednukem : Unofficial. A port of serveral BUILD Engine games based on EDuke32.
+◆ recopied : A lightweight clipboard history manager for Linux.
 ◆ red-request : The API client that respects you — native, offline-first, git-friendly, and entirely yours to rebrand.
 ◆ red-ui : Universal client for reddb — embedded, server, docker, cluster. Tauri 2 + SvelteKit, ships as desktop app and PWA.
+◆ rednukem : Unofficial. A port of serveral BUILD Engine games based on EDuke32.
 ◆ rekordbox-library-fixer : A collection of tools to fix yout Rekordbox DJ Library.
 ◆ rembg : RemBG Desktop Applicattion - useful for batch processing and cross-platform GUI.
 ◆ ren-browser : Modern Browser for the Reticulum Network using Reticulum-Go.
-◆ renpy-translator : A Ren'Py game Chinese translation tool based on Naive UI, which supports AI translation and manual translation, making game Chinese translation easier.
 ◆ renpy : Unofficial. Visual novel engine Ren'Py.
+◆ renpy-translator : A Ren'Py game Chinese translation tool based on Naive UI, which supports AI translation and manual translation, making game Chinese translation easier.
 ◆ resonance : A lightweight, local-first, open-source alternative to Postman and Insomnia.
 ◆ respeaker-console : Respeaker console. A desktop control application for reSpeaker XVF3800 devices, built with Tauri v2, React 19, and TypeScript.
-◆ re-sputnik : Desktop wizard that sets up and manages your own VPN router — no terminal or special skills required.
 ◆ restorekit : Reformat an Apple Silicon mac from any platform.
-◆ retromultitools : A cross-platform desktop utility for managing, inspecting, modifying, patching & launching retro game ROMs.
 ◆ retro-vibecoder : Template-based project generator CLI tool and standalone Desktop version with retro UI. Create C++/Python, Rust, Go, game engine projects from seeds! Eject to vendor-independent code. Built for humans or agents, indie devs or vibecoders.
+◆ retromultitools : A cross-platform desktop utility for managing, inspecting, modifying, patching & launching retro game ROMs.
 ◆ revpdf : Official release binaries for RevPDF Editor (Linux AppImage & macOS DMG).
 ◆ rewaita : Unofficial. Rewaita gives your Adwaita apps a fresh look by tinting them with popular color schemes.
 ◆ rexpo-debugger : A professional debugging tool similar to Flipper and Chrome DevTools for your Expo and React Native applications. Monitor network traffic and console logs in real-time — with zero-config auto-discovery so you never hard-code IPs again.
@@ -1210,18 +1210,18 @@
 ◆ siyuan-patch : Custom builds for Siyuan Note App.
 ◆ skerryssh : Open-source cross-platform SSH client.
 ◆ skill-buddy : AI Skills Buddy, A desktop workspace for managing, installing, and synchronizing Skills and MCP Servers across AI agents.
+◆ skill-zoo : All-in-One Desktop Agent Skills Utility. Welcome to the Skill Zoo, where all your skills live!.
 ◆ skills-hub : A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
 ◆ skills-manager : A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-◆ skill-zoo : All-in-One Desktop Agent Skills Utility. Welcome to the Skill Zoo, where all your skills live!.
 ◆ skylerx : Cross-platform desktop database management tool (Navicat, DBeaver alternative), built with Electron + Vue 3 + Vite + TypeScript.
 ◆ slick : The most powerful and versatile Slack client mod.
 ◆ slopera : The browser for the slop era.
-◆ smartswitch-explorer : Cross-platform GUI tool for decrypting and extracting data from Samsung SmartSwitch backups.
 ◆ smart-video-processor : Automated video processing. Re-Organize, Re-encode, adds metadata and icon when needed.
+◆ smartswitch-explorer : Cross-platform GUI tool for decrypting and extracting data from Samsung SmartSwitch backups.
 ◆ snakie : Snakie is a robotics first MicroPython IDE.
 ◆ snap-prompt : Snap Prompts is a modern desktop application designed for AI artists and Stable Diffusion users. It solves the problem of scattered prompt libraries by providing a centralized, secure way to store, edit, and visualize your prompts.
-◆ snes9x-enhanced : Unofficial. Snes9x - Portable Super Nintendo Entertainment System TM emulator.
 ◆ snes-ide : Make games using pvsneslib with ease.
+◆ snes9x-enhanced : Unofficial. Snes9x - Portable Super Nintendo Entertainment System TM emulator.
 ◆ sniffnet : Sniffnet is a network monitoring tool to help you easily keep track of your Internet traffic. Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this app will get you covered.
 ◆ snip : The visual communication layer between humans and AI agents. Capture, annotate, render diagrams, and organize with AI — powered by Electron and Ollama. macOS & Linux.
 ◆ snowboardkids2recomp : Unofficial. Snowboard Kids 2 Recompilation. A modern recompilation of the Nintendo 64 snowboarding game Snowboard Kids 2 for PC.
@@ -1274,21 +1274,21 @@
 ◆ superbacked : Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next.
 ◆ supermariowar : Unofficial. A fan-made multiplayer Super Mario Bros. style deathmatch game.
 ◆ supermodel : Unofficial. Sega Model 3 arcade emulator.
-◆ supertuxkart-dev : Free kart racing game focused on Fun! Pre-release.
 ◆ supertuxkart : Free kart racing game focused on Fun!
+◆ supertuxkart-dev : Free kart racing game focused on Fun! Pre-release.
 ◆ surveillance-station-client : Native GTK4 desktop client for Synology Surveillance Station on Linux and BSD.
 ◆ svg-to-drawio : SVG to draw.io decomposer: converts each SVG element into an individually editable draw.io cell.
 ◆ swampswap : A graphical user interface for the command line file transfer program croc, built in PyQt6.
 ◆ swifty-notes-gtk : Native GTK markdown notes for Linux and macOS, written in Swift.
 ◆ swissknife-for-ms-graph : 🗡️ SwissKnife for MS Graph.
-◆ switchboard : A desktop app for browsing, searching, and managing CLI coding sessions.
 ◆ switch : Connect any AI agent to your team in Slack, Teams & Discord. Open-source and self-hostable.
+◆ switchboard : A desktop app for browsing, searching, and managing CLI coding sessions.
 ◆ syncclipboard : Cross-platform cipboard syncing, history management tool.
 ◆ syncthing : Open Source Continuous File Synchronization.
 ◆ synthmultiviewer : Cross-platform editor and viewer for VapourSynth and AviSynth.
 ◆ system-monitoring-center : Unofficial. Multi-featured system monitor.
-◆ tabengine : A desktop guitar tab player.
 ◆ tab-hive : Tab Hive, web page hive..
+◆ tabengine : A desktop guitar tab player.
 ◆ tables : Adorable and fast database management app, free forever.
 ◆ tagger : Unofficial. Simple audio tagger with support for various audio formats.
 ◆ tailscreen : Encrypted, low-latency peer-to-peer screen sharing over Tailscale.
@@ -1303,8 +1303,8 @@
 ◆ teahouse : Teahouse: a pure intranet, IP-based LAN instant messaging and file transfer tool..
 ◆ telegram : Official desktop version of Telegram messaging app.
 ◆ termex : An open source AI-powered local SSH client.
-◆ terminalpolyominos : A lightweight polyomino stacking game for Unix terminals.
 ◆ termi : Self-hosted, open-source server management platform — SSH, SCP, RDP & VNC from your browser or desktop. AES-256-GCM encryption, TOTP 2FA, passkeys, and team sharing.
+◆ terminalpolyominos : A lightweight polyomino stacking game for Unix terminals.
 ◆ termix : Self-hosted SSH and remote desktop management.
 ◆ termlnk : Termlnk is a modern terminal reimagined with AI agents, SSH workflows, and a rich extension system.
 ◆ terramap : TerraMap Web is an interactive Terraria v1.4 world map viewer that loads quickly and lets you pan, zoom, find blocks, ores, items in chests, dungeons, NPCs, etc.
@@ -1361,9 +1361,9 @@
 ◆ unnamed-sdvx-clone : Unofficial. Unnamed SDVX clone. An open-source rhythm game inspired by Sound Voltex, featuring keyboard and controller support.
 ◆ unstream : Paste a Spotify / Deezer / Apple Music / YouTube / SoundCloud track, album or playlist URL — or search every catalog at once — and get tagged mp3 files. No accounts, no API keys, nothing paid.
 ◆ unterm : The terminal AI agents can drive, and the cockpit to run them from: 99 MCP methods, an agent inbox, verified worktree fleets, diff review and rollback. Local-first, MIT.
+◆ usage-monitor : Tray app for live Claude, Codex, Grok, and 9Router quota. Reads existing CLI logins. No API keys.
 ◆ usageatlas : Track all your AI coding usage and limits, Claude Code, Codex, Cursor, OpenCode and more. One picture.
 ◆ usagedeck : Every AI coding subscription you pay for, on one panel.
-◆ usage-monitor : Tray app for live Claude, Codex, Grok, and 9Router quota. Reads existing CLI logins. No API keys.
 ◆ usbsid-configtool : USBSID-Configtool is the only tool you will need to configure your USBSID-Pico!.
 ◆ uvtools : MSLA/DLP, file analysis, calibration, repair, conversion and manipulation.
 ◆ v2rayx : An all-platform (Macos Windows Linux) V2ray client build with Tauri.
@@ -1382,14 +1382,14 @@
 ◆ vertexlauncher : A blazingly fast modern minecraft launcher based on egui.
 ◆ vibex : IADE：A New Development Platform for the AI Era—An Integrated Agent Development Environment.
 ◆ vicu : A personal task manager for your desktop, powered by Vikunja.
+◆ vid-translate : Tauri desktop app for live JA/ES → EN video translation; Vosk ASR + CTranslate2 (int8-quantized MarianMT), paced-reveal captions, cross-platform CI release pipeline (AppImage/.deb/.msi).
 ◆ vidcord : Compress videos to fit Discord's file size limits. Cross-platform desktop app powered by FFmpeg — Windows, macOS, Linux.
 ◆ video-trimmer : Unofficial. Simple video trimming, with option to trim precisely or to trim without loosing video quality.
-◆ vid-translate : Tauri desktop app for live JA/ES → EN video translation; Vosk ASR + CTranslate2 (int8-quantized MarianMT), paced-reveal captions, cross-platform CI release pipeline (AppImage/.deb/.msi).
 ◆ vigil : Password manager/Vault based on keepass with modern UI, biometric features, yubikey support and pwnd checks.
 ◆ vinylflowplus : Digitize vinyl faster. Open source.
 ◆ virtual-surround-manager : Virtual 3D sound for headphones on Linux.
-◆ visigit : A perfect, visualizer for git commits, etc. Powered by Nvidia NIM for LLM overview.
 ◆ vis : Vis is a coding agent that combines tools into Python programs. It can chain operations, run them in parallel, and inspect results before deciding what belongs in the conversation.
+◆ visigit : A perfect, visualizer for git commits, etc. Powered by Nvidia NIM for LLM overview.
 ◆ vivaldi-snapshot : Unofficial. Feature-rich, highly customizable and privacy-focused web browser (testing snapshot).
 ◆ vivaldi-stable : Unofficial. Feature-rich, highly customizable and privacy-focused web browser (stable release).
 ◆ vkomic : Une application qui ce branche sur https://vk.com/board203785966 ,et permet de télécharger les bd ,mangas et comics disponible .
@@ -1405,8 +1405,8 @@
 ◆ walletwasabi : Wasabi is an open-source, non-custodial, privacy-focused Bitcoin wallet for desktop, that implements trustless multi-party transactions over the Tor anonymity network.
 ◆ wallpaperem : WallpaperEM - an extremely elegant all-platform desktop wallpaper engine, by no means a simple copy of WE! Full support for scenes/webpages/videos/images: minimal installation package · Dependency decoupling · Ultimate performance · Multiple image quality presets · AI creation · Wallpaper sharing (real-time rendering via mobile link). A supremely elegant cross-platform wallpaper engine — not a WE clone: scene/web/video/image wallpapers, tiny install, decoupled deps, great performance, quality presets, AI authoring, share links with live mobile rendering..
 ◆ warlock3 : A front end for Simutronics MUDs.
-◆ warpinator : Send and receive files across a local network.
 ◆ warp : Unofficial. Fast and secure file transfer through internet or local network exchanging a word-based code.
+◆ warpinator : Send and receive files across a local network.
 ◆ watchtower : Turn a computer you already own into your personal cloud. Deploy your website from GitHub — database, backups, private URL over Tailscale — for $0/month. When a deploy breaks, it fixes itself. Self-hosted Vercel/Coolify alternative on rootless Podman.
 ◆ wattage : Monitor power devices.
 ◆ waves : A native desktop app for accessing music from your own TIDAL account: search-first, art-forward, and built for people who'd rather click than type. macOS, Windows, Linux.
@@ -1414,24 +1414,24 @@
 ◆ waydroid : Unofficial AppImage of Waydroid that can also work on x11.
 ◆ wayland : Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves.
 ◆ waywallen : A dynamic wallpaper manager for linux desktops.
+◆ we-bluetooth-le-terminal : Smart device App for Proteus BLE Radio Modules.
 ◆ wealthfolio : A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.
+◆ web-clone : It allows the same site to create multiple "account clones", and stably manage multiple web page login identities on one computer, avoiding account cross-numbers, mutual status contamination, and frequent switching of browser data directories.
+◆ web-server-chrome : 200 OK Web Server.
 ◆ webamp-desktop-enhanced : Unofficial. Experimental cross-platform desktop version of Winamp 2.9 reimplementation in electron.
 ◆ webcamoid : Unofficial. A multi-platform camera capture app focused on providing all major features required by power users with a very simple and intuitive interface.
 ◆ webchat2api : A desktop application for the unified management of web-based AI accounts, offering interfaces compatible with OpenAI and Anthropic. It supports account validity checks, multi-turn conversations, and switching between Chinese and English.
-◆ web-clone : It allows the same site to create multiple "account clones", and stably manage multiple web page login identities on one computer, avoiding account cross-numbers, mutual status contamination, and frequent switching of browser data directories.
 ◆ webcord-enhanced : Unofficial. A Discord and Fosscord client implemented without Discord API.
-◆ we-bluetooth-le-terminal : Smart device App for Proteus BLE Radio Modules.
 ◆ webobsidian : Web based Obsidian Notes App.
 ◆ webos-dev-manager : Simple tool to manage developer mode enabled or rooted webOS TV.
-◆ web-server-chrome : 200 OK Web Server.
 ◆ wekan : The Open Source kanban, built with Meteor.
 ◆ wesoforge : Client for the blueblock compaction for the Chia Blockchain.
 ◆ wfview : Wfview rig control for Icom, Kenwood and Yaesu radios.
 ◆ wfweb : Turn any Icom transceiver into a web-accessible station. Headless wfview fork with browser-based control, audio streaming, SSB, FreeDV, AX.25, CW, JS8 and FT8.
+◆ whats-reader : Browse WhatsApp chat exports offline with AI-powered voice transcription. Privacy-first desktop/web app with bookmarks, search, and statistics. Built with SvelteKit and Electron.
 ◆ whatsapp-mcp-local : WhatsApp MCP Local: o seu WhatsApp no Claude, num app para macOS, Windows e Linux que roda no seu computador.
 ◆ whatsdesk : An unofficial client of WhatsApp.
 ◆ whatsie : Unofficial. Feature rich WhatsApp web client based on Qt WebEngine.
-◆ whats-reader : Browse WhatsApp chat exports offline with AI-powered voice transcription. Privacy-first desktop/web app with bookmarks, search, and statistics. Built with SvelteKit and Electron.
 ◆ where-to-study : Get lightweight applications (for both mobile and desktop) to access your personal BUPT class schedule and check for available classrooms at the Xitucheng and Shahe campuses; the apps support combined queries for better results (please drop a 🌟 if you like it).
 ◆ whiskr : Minimal LLM chat UI with plenty of features using OpenRouter, giving you control over your context.
 ◆ whisper-desktop : High-performance desktop studio for speech-to-text, subtitle translation, and video hardsubbing powered by whisper.cpp and FFmpeg. Fast, private, and runs 100% locally on Linux, Windows, and macOS.
@@ -1442,19 +1442,20 @@
 ◆ winebar : A Wine prefix manager.
 ◆ wingsv-dex : VPN клиент WINGS V для Linux/Windows с поддержкой Xray и VK TURN, встроенным ByeDPI и автопоиском профилей.
 ◆ wipeout-rewrite : Unofficial. Re-implementation of the 1995 PSX game wipEout.
-◆ wispr-flow-linux : Unofficial Linux port of Wispr Flow.
 ◆ wisp-science : Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.
+◆ wispr-flow-linux : Unofficial Linux port of Wispr Flow.
 ◆ witnote : WitNote is a local-first AI writing companion for macOS and Windows.
 ◆ wivrn : Unofficial. WiVRn. An open-source wireless VR streaming solution for connecting standalone VR headsets to Linux PCs.
 ◆ wizestream : .Electron based private streaming client.
 ◆ wled-toy : Live shader and node graph editor for WLED Strips.
 ◆ wljs-notebook : An open-source, web-native notebook interface for Wolfram Language / Wolfram Engine.
 ◆ word-sys-pdf-editor : Simple, fast & open-source PDF editor.
+◆ work-review : Automatically tracks which apps you used, which websites you visited, and how much time you spent in each app throughout the day.
 ◆ workbuddy-switch2api : WorkBuddy / CodeBuddy account switching tool (Tauri + Rust) with built-in OpenAI support. Compatible with local reverse proxies; features account pool rotation, credit check-in monitoring, and a persistent system tray icon. Fork of changexbc/workbuddy-switch.
 ◆ workrave : A program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit.
-◆ work-review : Automatically tracks which apps you used, which websites you visited, and how much time you spent in each app throughout the day.
 ◆ world-monitor : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
 ◆ wormhole : A modern, cross-platform, tabbed, multi-protocol connection manager inspired by mRemoteNG.
+◆ x-markdown : Markdown editor, built on Electron + Vue 3 + TipTap + TypeScript..
 ◆ xash3d-fwgs : A game engine aimed to provide compatibility with Half-Life Engine and extend it.
 ◆ xash3d-fwgs-enhanced : Unofficial. A game engine aimed to provide compatibility with Half-Life Engine and extend it.
 ◆ xclicker : XClicker - Fast GUI autoclicker for x11 linux desktops.
@@ -1463,7 +1464,6 @@
 ◆ xeyes : Unofficial. A "follow the mouse" X demo, using the X SHAPE extension.
 ◆ xfb : XFB - Open Source Radio Automation Software by Netpack Online Solutions www.netpack.pt.
 ◆ xiphos : Unofficial. A Bible study tool using GTK.
-◆ x-markdown : Markdown editor, built on Electron + Vue 3 + TipTap + TypeScript..
 ◆ xoreos : Unofficial. A reimplementation of BioWare's Aurora engine.
 ◆ xournalpp : Unofficial. Handwriting notetaking software with PDF annotation support. Written in C++ with GTK3.
 ◆ xpeccy-plus : ZX Spectrum all-rounder: run-ahead for low-latency play, accurate ULA timing for demos, a proper Z80 debugger for development.
