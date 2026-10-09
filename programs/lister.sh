@@ -60,6 +60,22 @@ for arch in $DIRS; do
 		_run_lister &
 	done
 	wait
+	for type in appimages portable; do
+		if [ -f "$arch-$type" ]; then
+			sort -u "$arch-$type" > list
+			wait
+			sort -u list > "$arch-$type"
+			wait
+		fi
+		if [ "$arch" = x86_64 ]; then
+			sort -u "stats-$type" > list
+			wait
+			sort -u list > "stats-$type"
+			wait
+		fi
+		rm -f list
+	done
+	wait
 	if [ "$arch" = x86_64 ]; then
 		METAPACKAGES="kdegames kdeutils node platform-tools"
 		for m in $METAPACKAGES; do
