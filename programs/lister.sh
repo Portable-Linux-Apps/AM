@@ -41,11 +41,11 @@ _run_lister() {
 		fi
 		if grep -qe "appimageupdatetool" "./$arch/$arg" 1>/dev/null; then
 			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-appimages"
-			_stats_appimages &
-			_stats_portable2appimage &
+			_stats_appimages
+			_stats_portable2appimage
 		else
 			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-portable"
-			_stats_portable &
+			_stats_portable
 		fi
 	fi
 }
