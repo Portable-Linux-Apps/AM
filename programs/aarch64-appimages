@@ -5,7 +5,7 @@
 ◆ 86box : Emulator of x86-based machines based on PCem.
 ◆ 86box-enhanced : Unofficial. Emulator of x86-based machines based on PCem.
 ◆ 8b : Create, read and edit controller profiles for 8BitDo devices on Linux.
-◆ a0-launcher : Agent Zero launcher app.
+◆ a0-launcher : Agent Zero app.
 ◆ aartiq : AI-native agentic browser with OS automation capabilities.
 ◆ abaddon : Unofficial. An alternative Discord client with voice support made with C++ and GTK 3.
 ◆ abracadabra : A DAB and DAB+ Software Defined Radio (SDR) application.
@@ -15,7 +15,7 @@
 ◆ acp-inspector : Desktop app to test, inspect, and debug ACP (Agent Client Protocol) agents — a JSON-RPC protocol inspector, like MCP   Inspector for ACP.
 ◆ acp-ui : A modern, cross-platform client for the Agent Client Protocol (ACP) on desktop, mobile, and the web — connect to any ACP-compatible AI agent (Claude, Codex, Copilot, Qwen, Gemini, OpenCode, OpenClaw and more).
 ◆ actioneer-gtk : A native GNOME desktop client for GitHub Actions.
-◆ activitywatch : The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.
+◆ activitywatch : The best automated time tracker. Cross-platform, extensible, privacy-focused.
 ◆ adiman : A music player for Linux written in dart and rust using flutter inspired by namida.
 ◆ adt-studio : Open-source desktop pipeline for turning PDFs into accessible books — built with support from UNICEF & OpenAI.
 ◆ advanced-portchecker : Check if a certain port is open or not.
