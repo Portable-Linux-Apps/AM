@@ -3,6 +3,7 @@
 ◆ 0x808 : Drum machine & synth workstation — C11 audio engine, step sequencer, FM/subtractive/wavetable synthesis. Standalone (SDL2), VST3, CLAP plugin.
 ◆ 0xchat-app-main : Security chat app built on Nostr
 ◆ 0xfx : Guitar amp simulator & effects pedalboard — open source, cross-platform (CLAP/VST3).
+◆ testme : Guitar amp simulator & effects pedalboard — open source, cross-platform (CLAP/VST3).
 ◆ 0xsynth : Multi-engine synthesizer (subtractive/FM/wavetable) — CLAP/VST3 plugin + standalone. Pure C, real-time safe.
 ◆ 12to11 : Unofficial. Tool for running Wayland applications on an X server.
 ◆ 1aivault : Your memory. Every AI. One vault.
