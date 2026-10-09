@@ -32,6 +32,24 @@ _stats_portable() {
 	fi
 }
 
+_run_lister() {
+	if [ -f "./$arch/$arg" ]; then
+		if [ "$arch" = aarch64 ] && grep -q "^◆ $arg :" "x86_64-apps"; then
+			grep "^◆ $arg :" "x86_64-apps" | head -1 >> "$arch-tmplist"
+		else
+			grep "^◆ $arg :" "$arch-apps" | head -1 >> "$arch-tmplist"
+		fi
+		if grep -qe "appimageupdatetool" "./$arch/$arg" 1>/dev/null; then
+			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-appimages"
+			_stats_appimages
+			_stats_portable2appimage
+		else
+			grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-portable"
+			_stats_portable
+		fi
+	fi
+}
+
 DIRS=$(find . -type d | grep "/" | sed 's:.*/::' | grep -v x86_64 | xargs)
 DIRS="x86_64 $DIRS"
 for arch in $DIRS; do
@@ -39,22 +57,9 @@ for arch in $DIRS; do
 	rm -f "$arch-appimages" "$arch-portable"
 	ARGS=$(awk -v FS="(◆ | : )" '{print $2}' <"$arch-apps" | sort -u)
 	for arg in $ARGS; do
-		if [ -f "./$arch/$arg" ]; then
-			if [ "$arch" = aarch64 ] && grep -q "^◆ $arg :" "x86_64-apps"; then
-				grep "^◆ $arg :" "x86_64-apps" | head -1 >> "$arch-tmplist"
-			else
-				grep "^◆ $arg :" "$arch-apps" | head -1 >> "$arch-tmplist"
-			fi
-			if grep -qe "appimageupdatetool" "./$arch/$arg" 1>/dev/null; then
-				grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-appimages"
-				_stats_appimages
-				_stats_portable2appimage
-			else
-				grep "◆ $arg :" "$arch-apps" | head -1 >> "$arch-portable"
-				_stats_portable
-			fi
-		fi
+		_run_lister &
 	done
+	wait
 	if [ "$arch" = x86_64 ]; then
 		METAPACKAGES="kdegames kdeutils node platform-tools"
 		for m in $METAPACKAGES; do
