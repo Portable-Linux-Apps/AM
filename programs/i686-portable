@@ -1,6 +1,6 @@
-◆ tor-browser : Privacy-oriented Web Browser for sites blocked in your country.
-◆ flow : Flow Control: a programmer's text editor.
-◆ ventoy : Tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.
 ◆ firefox-esr : Fast, powerful and extensible Web Browser (ESR Edition).
-◆ uv : An extremely fast Python package and project manager, written in Rust.
+◆ flow : Flow Control: a programmer's text editor.
 ◆ starship : The minimal, blazing-fast, and infinitely customizable prompt for any shell.
+◆ tor-browser : Privacy-oriented Web Browser for sites blocked in your country.
+◆ ventoy : Tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.
+◆ uv : An extremely fast Python package and project manager, written in Rust.
