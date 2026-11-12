@@ -62,6 +62,33 @@ jobs:
         run: |
           git config --global user.name "web-flow"
           git config --global user.email "noreply@github.com"
+          git checkout -b amcheck-quick
           git add programs
-          git commit -m "Remove apps that did not pass the test" || echo "No changes to commit"
-          git push origin testing --force
+          git commit -m "Remove apps that did not pass the test" || echo "No changes to commit" && exit 0
+          base=$(git ls-remote --symref origin HEAD | awk 'NR==1 { sub(/^refs\/heads\//, "", $2); print $2 }')
+          # rebase first
+          for attempt in 1 2 3; do
+            git fetch --force origin "$base"
+            if git rebase "origin/$base"; then
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            [ "$attempt" = 3 ] && { echo "::error::Could not rebase the app files onto origin/$base"; exit 1; }
+            echo "Rebase failed, retrying with a fresh fetch (attempt $attempt of 3)"
+          done
+          git push --force origin convert-screenshots
+          printf '{"title":"Remove apps that did not pass the test","head":"amcheck-quick","base":"%s","body":""}' "$base" > /tmp/pull.json
+          code=$(curl -sS -o /tmp/pull-reply.json -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "$API_URL/pulls" \
+            --data-binary @/tmp/pull.json)
+          if [ "$code" = 201 ]; then
+            echo "Opened the site pull request"
+          elif [ "$code" = 422 ] && grep -q 'already exists' /tmp/pull-reply.json; then
+            echo "Pull request already open; pushed the new commit onto it"
+          else
+            echo "::error::Opening the site pull request failed (HTTP $code)"
+            cat /tmp/pull-reply.json
+            exit 1
+          fi
