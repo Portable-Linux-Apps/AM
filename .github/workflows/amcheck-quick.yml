@@ -66,9 +66,7 @@ jobs:
           git add programs
           git commit -m "Remove apps that did not pass the test" || echo "No changes to commit" && exit 0
           base=$(git ls-remote --symref origin HEAD | awk 'NR==1 { sub(/^refs\/heads\//, "", $2); print $2 }')
-          # sync-with-AM commits apps/ every 30 minutes, so the branch is
-          # rebased onto the current default branch before pushing — that
-          # keeps the pull request showing only this run's app-file changes.
+          # rebase first
           for attempt in 1 2 3; do
             git fetch --force origin "$base"
             if git rebase "origin/$base"; then
