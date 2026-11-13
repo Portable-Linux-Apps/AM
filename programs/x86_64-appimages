@@ -930,7 +930,6 @@
 ◆ branchdial : A real terminal with a sidebar of one-click workflow buttons for common git tasks.
 ◆ branchloom : Youpu: a family tree and relationship manager.
 ◆ brassworkslauncher : The official launcher for the Brassworks SMP. Built with Rust.
-◆ brave : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "stable" release.
 ◆ brave-beta : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "beta" release.
 ◆ brave-nightly : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "nightly" release.
 ◆ brave-origin : Unofficial. Stripped down version of Brave Browser with no extra features.
@@ -2404,7 +2403,6 @@
 ◆ eumetcastview : An EUMETCast viewer.
 ◆ eussh : Eussh is a cross-platform SSH client built with Tauri v2, featuring a clean interface and excellent performance. It supports multi-tab management, file management, batch command execution, and host key verification.
 ◆ eva-agent : Eva - Is your AI. The future is now.
-◆ evalit : A notepad calculator application with JavaScript configuration.
 ◆ eve-fit-assistant : Cross platform fitting utility for EVE Online®, built with Flutter.
 ◆ eve-intel-checker : A tool to help you check Intel channels.
 ◆ eve-settings-manager : EVE Online Settings Manager.
@@ -2592,7 +2590,6 @@
 ◆ firedragon : A web browser based on Floorp (the Vivaldi of Firefox's) with many opiniated settings by default.
 ◆ firefly-desktop : The official IOTA and Shimmer wallet.
 ◆ fireform : FireForm is a tool to streamline documentational overhead for emergency departments.
-◆ firefox : Fast, powerful and extensible Web Browser, Stable.
 ◆ firefox-beta : Fast, powerful and extensible Web Browser, Beta Edition.
 ◆ firefox-devedition : Fast, powerful and extensible Web Browser, Developer Edition.
 ◆ firefox-esr : Fast, powerful and extensible Web Browser, ESR Edition.

@@ -184,7 +184,6 @@
 ◆ braintentacle : Tentacle BIT · Desktop AI Agent: Conversation / Tools / Memory / Skills / Secure Data Sanitization / MCP Extensions; built with Tauri, Rust, and React.
 ◆ bramble : Local-first password manager with direct device-to-device sync.
 ◆ brassworkslauncher : The official launcher for the Brassworks SMP. Built with Rust.
-◆ brave : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "stable" release.
 ◆ brave-beta : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "beta" release.
 ◆ brave-nightly : Unofficial. A privacy oriented Web Browser based on Chromium, this is the "nightly" release.
 ◆ brave-origin : Unofficial. Stripped down version of Brave Browser with no extra features.
@@ -537,7 +536,6 @@
 ◆ filebrowser-quantum : Web File Browser.
 ◆ filex : Self-hosted file manager: one Go binary, a full web UI, and storage that plugs in — local, S3, SFTP, WebDAV, FTP, SMB. The same tree is also reachable AS S3, SFTP, FTPS, NFS and WebDAV, so rclone, restic, WinSCP or a scanner land where the browser does. Embeddable UI, desktop app, built-in MCP server. MIT.
 ◆ fini : A quest-based productivity system for ADHD brains that helps people finish things.
-◆ firefox : Fast, powerful and extensible Web Browser, Stable.
 ◆ firefox-beta : Fast, powerful and extensible Web Browser, Beta Edition.
 ◆ firefox-devedition : Fast, powerful and extensible Web Browser, Developer Edition.
 ◆ firefox-esr : Fast, powerful and extensible Web Browser, ESR Edition.
